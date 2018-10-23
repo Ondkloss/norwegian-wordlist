@@ -1,4 +1,22 @@
 import re
+import tarfile
+import os
+
+BOKMAL = '20180627_norsk_ordbank_nob_2005'
+NYNORSK = '20180626_norsk_ordbank_nno_2012'
+
+
+def extract_tar(filename):
+    tar = tarfile.open(filename, "r:gz")
+    tar.extractall()
+    tar.close()
+
+
+def find_lemma_file(directory):
+    for file in os.listdir(directory):
+        match = re.match(r'^lemma(?:_\d+)?\.txt$', file)
+        if match:
+            return file
 
 
 def get_file_contents(filename):
@@ -21,7 +39,7 @@ def filter_out_pattern(lines, pattern):
     result = []
 
     for line in lines:
-        match = re.search(pattern, line)
+        match = re.match(pattern, line)
         if not match:
             result.append(line)
 
@@ -32,7 +50,7 @@ def extract_word(lines):
     result = []
 
     for line in lines:
-        match = re.search(r'\d+\t\d+\t(.+)\t.+', line)
+        match = re.match(r'^\d+\t\d+\t(.+)\t.+$', line)
         if match:
             result.append(match.group(1))
 
@@ -57,9 +75,11 @@ def remove_single_letter_words(lines):
     return filter_out_pattern(lines, r'^.{1}$')
 
 
-def parse_into_wordlist():
+def parse_into_wordlist(filename):
     # prepare content
-    content = get_file_contents('ordbank/lemma.txt')
+    extract_tar('{}.tar.gz'.format(filename))
+    lemma = find_lemma_file(filename)
+    content = get_file_contents('{}/{}'.format(filename, lemma))
     lines = content.split('\n')
 
     # process lines
@@ -74,7 +94,8 @@ def parse_into_wordlist():
     lines = sorted(lines)
 
     # persist result
-    set_file_contents('wordlist.txt', lines)
+    set_file_contents('wordlist_{}.txt'.format(filename), lines)
 
 
-parse_into_wordlist()
+parse_into_wordlist(BOKMAL)
+parse_into_wordlist(NYNORSK)
