@@ -1,0 +1,786 @@
+LOEPENR	PARADIGME_ID	BOY_GRUPPE	ORDKLASSE	ORDKLASSE_UTDYPING	FORKLARING	DOEME	ID
+1	001	verb, normal	verb	pret_suffiks pret_A	fullst	kaste -	1
+2	002	verb, normal	verb	pret_suffiks MM pret_A	fullst	hemme -	2
+3	003	verb, normal	verb	på_rotvokal pret_suffiks pret_A	fullst	kvi -	3
+4	004	verb, normal	verb	pret_suffiks J-bortfall pret_A	fullst	bølgje -	4
+5	007	verb, normal	verb	pret_suffiks på_DR_BL pret_A	fullst	endre -	5
+6	010	verb, normal	verb	pret_suffiks pret_ET adj_be_fl_ETE	fullst	kaste -	6
+7	011	verb, normal	verb	pret_suffiks pret_ET adj_be_fl_EDE	fullst	kaste -	613
+8	012	verb, normal	verb	pret_suffiks MM pret_ET adj_be_fl_ETE	fullst	hemme -	7
+9	013	verb, normal	verb	på_rotvokal  pret_suffiks pret_ET adj_be_fl_ETE	fullst	kvi -	8
+10	014	verb, normal	verb	pret_suffiks J-bortfall pret_ET adj_be_fl_ETE	fullst enkelttilfelle	bølgje -	9
+11	015	verb, normal	verb	pret_suffiks MM pret_ET adj_be_fl_EDE	fullst	hemme -	614
+12	016	verb, normal	verb	på_rotvokal pret_suffiks pret_ET adj_be_fl_EDE	fullst	kvi -	615
+13	017	verb, normal	verb	pret_suffiks på_DR_BL pret_ET adj_be_fl_ETE	fullst	endre -	10
+14	018	verb, normal	verb	pret_suffiks J-bortfall pret_ET adj_be_fl_EDE	fullst	bølgje -	616
+15	019	verb, normal	verb	pret_suffiks på_DR_BL pret_ET adj_be_fl_EDE	fullst	endre -	617
+16	020	verb, normal	verb	pret_suffiks pret_TE	fullst	nevne	11
+17	021	verb, normal	verb	pret_suffiks forenkl pret_TE	fullst	kalle	12
+18	022	verb, normal	verb	pret_suffiks MM forenkl pret_TE	fullst	tømme	13
+19	023	verb, normal	verb	pret_suffiks J-bortfall pret_TE	fullst	røkje	14
+20	027	verb, normal	verb	sterk vokalskifte_I>JE>I pret_0 perf_T	fullst	skite	675
+21	030	verb, normal	verb	pret_suffiks pret_DE	fullst	kreve	15
+22	031	verb, normal	verb	pret_suffiks forenkl pret_DE	fullst	bygge	16
+23	033	verb, normal	verb	pret_suffiks J-bortfall pret_DE	fullst enkelttilfelle	telgje	17
+24	040	verb, normal	verb	pret_suff på_rotvok pret_DDE	fullst	nå	18
+25	041	verb, normal	verb	pret_suffiks på_rotvokal  pret_DDE prespart_DENDE	fullst enkelttilfelle	avkle -	19
+26	042	verb, normal	verb	pret_suffiks på_rotvokal pret_DTE prespart_ENDE	fullst	bre	20
+27	043	verb, normal	verb	pret_suffiks pret_DDE	fullst	løe	21
+28	044	verb, normal	verb	pret_suffiks J-bortfall pret_DE	fullst	svelgje -	22
+29	045	verb, normal	verb	pret_suffiks på_rotvokal pret_DE perf_DD	fullst	utdø -	23
+30	046	verb, normal	verb	pret_suffiks pret_GDE	fullst	vie -	24
+31	047	verb, normal	verb	pret_suffiks pret_-GDE perf_-GD	fullst	sløye -	25
+32	048	verb, normal	verb	pret_suffiks på_rotvokal pret_DDE perf_TT	fullst	inneha -	26
+33	049	verb, normal	verb	pret_suffiks på_rotvokal pass_ES pret_DDE perf_TT	fullst	inneha -	27
+34	050	verb, normal	verb	pret_suffiks pret_0 perf_T	fullst	løpe -	28
+35	051	verb, normal	verb	pret_suffiks pret_0 perf_ET	fullst	løpe -	29
+36	052	verb, normal	verb	sterk ikke_vokalskifte forenkl pret_0 perf_D	fullst	hogge -	30
+37	055	verb, normal	verb	pret_suffiks forenkl pret_T	fullst	bifalle	31
+38	060	verb, normal	verb	pret_suffiks vokalskifte I>I>U  pret_ET adj_be_fl_ETE	fullst	tvinne -	32
+39	090	verb, ubøy	verb ubøy			mon	33
+40	1001	forkorting	fork			NSB	749
+41	1002	prefiks	pref			aero-	756
+42	1003	i sammensetting	i sms			avls-	757
+43	1004	symbol	symb			Au	750
+44	101	verb, normal	verb	pret_suffiks vokalskifte_ING>AK>AK pret_TE	fullst enkelttilfelle	bringe	34
+45	102	verb, normal	verb	pret_suffiks vokalskifte_ING>AG>AG pret_TE	fullst unormert enkelttilfelle	bringe	35
+46	103	verb, normal	verb	pret_suffiks vokalskifte_E>A>A pret_TE	fullst	kvele -	36
+47	104	verb, normal	verb	pret_suffiks vokalskifte_E>A>A forenkl pret_0 perf_T	fullst enkelttilfelle	legge	37
+48	106	verb, normal	verb	pret_suffiks vokalskifte_E>A>A pret_E perf_0	fullst like_kons	sette	38
+49	109	verb, normal	verb	pret_suffiks vokalskifte_E>A>A forenkl pret_TE	fullst	rekke	39
+50	112	verb, normal	verb	pret_suffiks vokalskifte_E>A>A pret_TE	fullst ulike_kons	velge	40
+51	115	verb, normal	verb	pret_suffiks vokalskifte_IE>AG>AG pret_DE	fullst enkelttilfelle	tie -	41
+52	120	verb, normal	verb	pret_suffiks vokalskifte_E>A>E  pret_0 perf_T	fullst ulik_kons	verpe -	42
+53	121	verb, normal	verb	pret_suffiks vokalskifte_E>O>O pret_TE	fullst ulike_kons	selge	43
+54	122	verb, normal	verb	pret_suffiks vokalskifte_Ø>U>U pret_TE	fullst	smøre	44
+55	123	verb, normal	verb	pret_suffiks vokalskifte_Ø>U>U forenkl pret_TE	fullst enkelttilfelle like_kons	spørre	45
+56	125	verb, normal	verb	pret_suffiks vokalskifte_Ø>U>U pret_TE	fullst enkelttilfelle ulike_kons	følge	46
+57	126	verb, normal	verb	pret_suffiks vokalskifte_Ø>O>O pret_DE perf_T	fullst	gjøre	47
+58	151	verb, normal	verb	pret_suffiks pres_vokalskifte_I>EI	fullst enkelttilfelle	vite -	48
+59	152	verb, normal	verb	pret_suffiks pres_vokalskifte_I>E	fullst enkelttilfelle	vite -	49
+60	153	verb, normal	verb	sterk vokalskifte_E>Å>Å pret_TTE	fullst enkelttilfelle	eie -	50
+61	158	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pret_D perf_DT prespart_ENDE	fullst kortform	be -	51
+62	159	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_T	fullst langform	bede -	52
+63	160	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pret_0 perf_DT prespart_ENDE	fullst kortform	be -	53
+64	161	verb, normal	verb	sterk vokalskifte_E>A>E pret_- perf_T	fullst langform	bede -	54
+65	162	verb, normal	verb	sterk vokalskifte_EI>E>E pret_TE	fullst enkelttilfelle	leite -	55
+66	163	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_D perf_DD	fullst kortform	gli -	56
+67	164	verb, normal	verb	sterk vokalskifte_I>EI>I  pret_0 perf_D	fullst langform	glide -	57
+68	166	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_T	fullst langform	lide -	58
+69	167	verb, normal	verb	sterk vokalskifte_I>EI>I pret_-  perf_T	fullst langform	lide -	59
+70	168	verb, normal	verb	sterk vokalskifte_I>E>I på_rotvokal  pret_D perf_DT	fullst kortform	li -	60
+71	169	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal  pret_0 perf_DT	fullst kortform	li -	61
+72	1695	adverb	adv fork			f.eks.	742
+73	1696	adverb	fork				744
+74	171	verb, normal	verb	sterk vokalskifte_I>E>I på_rotvokal pret_0 perf_TT	fullst	vedbli -	62
+75	172	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_0 perf_TT	fullst	vedbli -	63
+76	173	verb, normal	verb	sterk vokalskifte_I>EI>I  pret_0 perf_DD	fullst langform	glide -	64
+77	174	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_0 perf_DD	fullst	vri -	65
+78	175	verb, normal	verb	sterk vokalskifte_I>E>I på_rotvokal pret_V perf_TT prespart_VENDE	fullst "drukne" kortform	bli -	66
+79	176	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_V perf_TT prespart_VENDE	fullst "drukne" kortform	bli -	67
+80	177	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_-TT	fullst "drukne" langform	blive -	68
+81	178	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_-TT	fullst "drukne" langform	blive -	69
+82	179	verb, normal	verb	sterk vokalskifte_I>E>I på_rotvokal pret_D perf_DD	fullst kortform	bestri -	70
+83	180	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_0 perf_DT	fullst kortform	bestri -	71
+84	181	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_D	fullst langform	bestride -	72
+85	182	verb, normal	verb	sterk vokalskifte_I>EI>I pret_- perf_T	fullst langform	bestride -	73
+86	183	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pret_D perf_DT	fullst kortform	bestri -	74
+87	184	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_T	fullst langform	bestride -	75
+88	185	verb, normal	verb	sterk vokalskifte_I>E>I på_rotvokal pret_0 perf_DD	fullst kortform unormert	skli -	628
+89	186	verb, normal	verb	sterk vokalskifte_I>E>E pret_0 perf_ET adj_nøyt_--IDT adj_m/f_ET	fullst langform	overskride -	76
+90	187	verb, normal	verb	sterk vokalskifte_I>EI>E pret_0 perf_ET	fullst	overskride -	77
+91	188	verb, normal	verb	sterk vokalskifte_I>E>E på_rotvokal pret_D perf_DET	fullst kortform	skri -	78
+92	189	verb, normal	verb	sterk vokalskifte_I>EI>E på_rotvokal pret_0 perf_DET	fullst kortform	skri -	79
+93	190	verb, normal	verb	sterk vokalskifte_I>E>E på_rotvokal pret_D perf_DET adj_m/f_DEN	fullst kortform	skri -	80
+94	191	verb, normal	verb	sterk vokalskifte_I>EI>E på_rotvokal pret_0 perf_DET adj_m/f_DEN	fullst kortform	skri -	81
+95	192	verb, normal	verb	sterk vokalskifte_I>E>E pret_0 perf_ET	fullst langform	overskride -	82
+96	193	verb, normal	verb	sterk vokalskifte_I>EI>E pret_- perf_ET	fullst langform	overskride -	83
+97	194	verb, normal	verb	sterk vokalskifte_I>EI>E på_rotvokal pret_D perf_DET	fullst kortform	skri -	84
+98	195	verb, normal	verb	sterk vokalskifte_I>EI>E på_rotvokal pret_D perf_DET adj_m/f_EN	fullst kortform	skri -	85
+99	196	verb, normal	verb	sterk vokalskifte_I>EI>E pret_0 perf_ET	fullst langform	overskride -	86
+100	197	verb, normal	verb	sterk vokalskifte_I>EI>E pret_0 perf_ET adj _m/f_EN	fullst langform	overskride	87
+101	198	verb, normal	verb	sterk vokalskifte_I>E>E pret_0 perf_ET adj_be_fl_NE	fullst	løsrive -	88
+102	199	verb, normal	verb	sterk vokalskifte_I>EI>E pret_0 perf_ET adj_be_fl_NE	fullst	løsrive -	89
+103	200	verb, normal	verb	sterk vokalskifte_I>E>E pret_0 perf_ET adj_m/f_EN	fullst	løsrive -	90
+104	201	verb, normal	verb	sterk vokalskifte_I>EI>E pret_0 perf_ET adj_m/f_EN	fullst	løsrive -	91
+105	202	verb, normal	verb	sterk vokalskifte_I>E>I  pret_0 perf_T	fullst	grine -	92
+106	203	verb, normal	verb	sterk vokalskifte_I>EI>I  pret_0 perf_T	fullst	grine -	93
+107	204	verb, normal	verb	sterk vokalskifte_I>EI>I forenkl pret_0 perf_T	fullst like_kons	skinne -	94
+108	205	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_D	fullst	svive	95
+109	206	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_D	fullst	hive -	96
+110	207	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_T	fullst	skite	97
+111	208	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_T	fullst	bite -	98
+112	209	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_ET adj_be_fl_NE	fullst	drite -	99
+113	210	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_ET adj_be_fl_NE	fullst	drite -	100
+114	211	verb, normal	verb	sterk vokalskifte_I>E>I pret_0 perf_ET adj_m/f_EN	fullst	drite -	101
+115	212	verb, normal	verb	sterk vokalskifte_I>EI>I pret_0 perf_ET adj_m/f_EN	fullst	drite -	102
+116	213	verb, normal	verb	sterk vokalskifte_Y>AU>U på_rotvokal pret_D perf_DT	fullst kortform	by -	103
+117	214	verb, normal	verb	sterk vokalskifte_Y>Ø>U på_rotvokal pret_D perf_DT	fullst kortform	by -	104
+118	215	verb, normal	verb	sterk vokalskifte_Y>ØY>Y pret_0 perf_T	fullst	flyte -	661
+119	216	verb, normal	verb	sterk vokalskifte_Y>ØY>Ø  pret_0 perf_ET adj_be_fl_NE	fullst	krype -	664
+120	217	verb, normal	verb	sterk vokalskifte_Y>ØY>Ø  pret_0 perf_ET adj_be_fl_NE	fullst	krype -	665
+121	218	verb, normal	verb	sterk vokalskifte_Y>Ø>Ø  pret_0 perf_ET adj_be_fl_NE	fullst	krype -	105
+122	219	verb, normal	verb	sterk vokalskifte_Y>AU>Ø  pret_0 perf_ET adj_be_fl_NE	fullst	krype -	106
+123	21A	verb, normal	verb	sterk vokalskifte_Y>ØY>U på_rotvokal pret_D perf_DT	fullst kortform	by -	662
+124	21B	verb, normal	verb	sterk vokalskifte_Y>ØY>Y på_rotvokal pret_0 perf_DD	fullst kortform	by -	663
+125	220	verb, normal	verb	sterk vokalskifte_Y>Ø>Ø  pret_0 perf_ET adj_m/f_EN	fullst	krype -	107
+126	221	verb, normal	verb	sterk vokalskifte_Y>AU>Ø  pret_0 perf_ET adj_m/f_EN	fullst	krype -	108
+127	222	verb, normal	verb	sterk vokalskifte_Y>AU>U  pret_0 perf_T	fullst langform	byde -	109
+128	223	verb, normal	verb	sterk vokalskifte_Y>Ø>U  pret_0 perf_T	fullst langform	byde -	110
+129	224	verb, normal	verb	sterk vokalskifte_Y>ØY>U  pret_0 perf_T	fullst langform	byde - 	773
+130	225	verb, normal	verb	sterk vokalskifte_Y>ØY>Y på_rotvokal pret_0 perf_DD	fullst langform	byde -	774
+131	226	verb, normal	verb	sterk vokalskifte_Y>Ø>O pret_0 perf_+ET adj_m/f_+ET adj_be_fl_NE	fullst	forfryse -	111
+132	227	verb, normal	verb	sterk vokalskifte_Y>AU>O pret_0 perf_+ET adj_m/f_+ET adj_be_fl_NE	fullst	forfryse -	112
+133	228	verb, normal	verb	sterk vokalskifte_Y>AU>O pret_0 perf_+ET adj_m/f_+EN	fullst	forfryse -	113
+134	229	verb, normal	verb	sterk vokalskifte_Y>Ø>O pret_0 perf_+ET adj_m/f_+EN	fullst	forfryse -	114
+135	22A	verb, normal	verb	sterk vokalskifte_Y>ØY>O pret_0 perf_+ET adj_m/f_+ET adj_be_fl_NE	fullst	forfryse -	667
+136	22B	verb, normal	verb	sterk vokalskifte_Y>ØY>O pret_0 perf_+ET adj_m/f_+EN a	fullst	forfryse -	668
+137	230	verb, normal	verb	sterk vokalskifte_Y>AU>Y pret_0 perf_T	fullst	flyte -	115
+138	231	verb, normal	verb	sterk vokalskifte_Y>Ø>Y pret_0 perf_T	fullst	flyte -	116
+139	232	verb, normal	verb	sterk vokalskifte_Y>AU>U  pret_0 perf_T	fullst	skyte -	117
+140	233	verb, normal	verb	sterk vokalskifte_Y>Ø>U J-flyt pret_0 perf_T	fullst	skyte -	118
+141	234	verb, normal	verb	sterk vokalskifte_Y>Ø>U  pret_0 perf_T	fullst	skyte -	119
+142	235	verb, normal	verb	sterk vokalskifte_Y>AU>U  pret_0 perf_D	fullst	suge -	120
+143	236	verb, normal	verb	sterk vokalskifte_Y>AU>Y   pret_0 perf_T	fullst	nyse -	121
+144	237	verb, normal	verb	sterk vokalskifte_Y>Ø>Y pret_0 perf_T	fullst	nyse -	122
+145	238	verb, normal	verb	sterk vokalskifte_Y>Ø>Ø J-flyt pret_0 perf_ET adj_be_fl_NE	fullst	skyve -	123
+146	239	verb, normal	verb	sterk vokalskifte_Y>AU>Ø pret_0 J-flyt perf_ET adj_be_fl_NE	fullst	skyve -	124
+147	23A	verb, normal	verb	sterk vokalskifte_Y>ØY>U  pret_0 perf_T	fullst	bryte	666
+148	23B	verb, normal	verb	sterk vokalskifte_Y>ØY>Y  pret_0 perf_D	fullst	gyve -	671
+149	240	verb, normal	verb	sterk vokalskifte_Y>Ø>Ø J-flyt pret_0 perf_ET adj_m/f_EN	fullst	skyve -	125
+150	241	verb, normal	verb	sterk vokalskifte_Y>AU>Ø pret_0 J-flyt perf_ET adj_m/f_EN	fullst	skyve -	126
+151	242	verb, normal	verb	sterk vokalskifte_Y>ØY>ØY pret_0 på_rotvokal perf_ET adj_be_fl_NE	fullst kortform	fly -	127
+152	243	verb, normal	verb	sterk vokalskifte_Y>ØY>ØY pret_0 på_rotvokal perf_ET adj_m/f_EN	fullst kortform	fly -	128
+153	244	verb, normal	verb	sterk vokalskifte_Y>AU>Y pret_G på_rotvokal  perf_DD	fullst kortform	fly -	129
+154	245	verb, normal	verb	sterk vokalskifte_Y>ØY>ØY pret_- på_rotvokal perf_-ET adj_be_fl_-NE	fullst langform	flyge -	130
+155	246	verb, normal	verb	sterk vokalskifte_Y>ØY>ØY pret_- på_rotvokal perf_-ET adj_m/f_-EN	fullst langform	flyge -	131
+156	247	verb, normal	verb	sterk vokalskifte_Y>AU>Y pret_0 på_rotvokal  perf_-DD	fullst langform	flyge -	132
+157	248	verb, normal	verb	sterk vokalskifte_Y>Ø>Y J-flyt pret_0 perf_T	fullst	gyte -	133
+158	249	verb, normal	verb	sterk vokalskifte_Y>AU>ØY pret_0 perf_-ET adj_be_fl_-NE	fullst	lyge -	134
+159	24A	verb, normal	verb	sterk vokalskifte_Y>ØY>Ø J-flyt pret_0 perf_ET adj_m/f_ET	fullst	skyve -	669
+160	24B	verb, normal	verb	sterk vokalskifte_Y>ØY>Ø J-flyt pret_0 perf_ET adj_m/f_EN	fullst	skyve	670
+161	250	verb, normal	verb	sterk vokalskifte_Y>AU>ØY pret_0 perf_-ET adj_m/f_-EN	fullst	lyge -	135
+162	251	verb, normal	verb	sterk vokalskifte_U>ØY>ØY J-bortfall pret_- perf_-ET adj_be_fl_-NE	fullst	ljuge -	136
+163	252	verb, normal	verb	sterk vokalskifte_U>AU>ØY J-bortfall pret_0 perf_-ET adj_be_fl_-NE	fullst	ljuge -	137
+164	253	verb, normal	verb	sterk vokalskifte_U>ØY>ØY J-bortfall pret_- perf_-ET adj_m/f_-EN	fullst	ljuge -	138
+165	254	verb, normal	verb	sterk vokalskifte_U>AU>ØY J-bortfall pret_0 perf_-ET adj_m/f_-EN	fullst	ljuge -	139
+166	255	verb, normal	verb	sterk vokalskifte_Y>Ø>Y pret_0 J-flyt perf_D	fullst	gyve -	140
+167	255A	verb, normal	verb	sterk vokalskifte_Y>Ø>Y pret_0 J-flyt perf_T	fullst	gyse	786
+168	256	verb, normal	verb	sterk vokalskifte_Y>AU>Y  pret_0 perf_D	fullst	gyve -	141
+169	257	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_be_fl_-NE	like_kons fullst	slippe -	142
+170	258	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_m/f_EN	like_kons fullst	slippe -	143
+171	259	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_be_fl_NE	ulike_kons fullst	springe -	144
+172	25A	verb, normal	verb	pret_suffiks vokalskifte_Y>Ø>Y pret_D perf_DD	fullst	bry	679
+173	260	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_m/f_EN	ulike_kons fullst	springe -	145
+174	261	verb, normal	verb	sterk vokalskifte_I>A>U forenkl pret_T perf_ET adj_be_fl_E	like_kons fullst	finne -	146
+175	262	verb, normal	verb	sterk vokalskifte_I>A>U forenkl pret_T perf_ET adj_m/f_EN	like_kons fullst	finne -	147
+176	263	verb, normal	verb	sterk vokalskifte_E>A>E forenkl  pret_T perf_T adj_be_fl_TE	like_kons fullst	renne	148
+177	264	verb, normal	verb	sterk vokalskifte_I>A>U pret_T perf_ET adj_be_fl_NE	like_kons fullst	binde -	149
+178	265	verb, normal	verb	sterk vokalskifte_I>A>U pret_T perf_ET adj_m/f_EN	like_kons fullst	binde -	150
+179	266	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 forenkl perf_T	fullst like_kons "smelle" "brake" 	skrelle -	151
+180	267	verb, normal	verb	sterk vokalskifte_E>A>E  pret_T perf_T	ulike_kons fullst  enkelttilfelle	gjelde -	152
+181	268	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pret_T perf_T	ulike_kons fullst enkelttilfelle	gjelde -	153
+182	269	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pret_0 perf_ET adj_be_fl_NE	like_kons fullst	skjelve -	154
+183	26A	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_be_fl_E	like_kons fullst	finne -	155
+184	26B	verb, normal	verb	sterk vokalskifte_I>A>U pret_0 perf_ET adj_m/f_EN adj_be_fl_E	like_kons fullst	finne -	156
+185	26C	verb, normal	verb	sterk vokalskifte_konsonantforenkling_E>A>E  pret_0 perf_ET	fullst	fornemme	680
+186	270	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pret_0 perf_ET adj_m/f_EN	ulike_kons fullst	skjelve -	157
+187	271	verb, normal	verb	sterk vokalskifte_I>A>I pret_0 perf_ET adj_be_fl_NE	ulike_kons fullst	svinge -	158
+188	272	verb, normal	verb	sterk vokalskifte_I>A>I pret_0 perf_ET adj_m/f_EN	ulike_kons fullst	svinge -	159
+189	273	verb, normal	verb	sterk vokalskifte_I>A>I pret_0 perf_T	ulike_kons fullst	svinge -	160
+190	274	verb, normal	verb	sterk vokalskifte_I>A>I  pret_0 perf_-D adj_be_fl_-DE	like_kons fullst	tigge -	161
+191	275	verb, normal	verb	sterk vokalskifte_Ø>O>Ø pret_0 perf_ET adj_be_fl_-NE	like_kons fullst	støkke -	162
+192	276	verb, normal	verb	sterk vokalskifte_Ø>O>Ø pret_0 perf_ET adj_m/f_EN	like_kons fullst	støkke -	163
+193	277	verb, normal	verb	sterk vokalskifte_Ø>O>Ø pret_0 perf_-T	like_kons fullst	støkke -	164
+194	278	verb, normal	verb	sterk uten_vokalskifte pret_T perf_T	ulike_kons fullst	holde	165
+195	279	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>I>Å 	fullst enkelttilfelle	få -	166
+196	27A	verb, normal	verb	ikke vokalskifte_Ø>Ø>Ø pret_Ø perf_ET 	like_kons fullst	støkke -	676
+197	27B	verb, normal	verb	ikke vokalskifte_Ø>Ø>Ø pret_0 perf_ET	like_kons fullst	støkke -	677
+198	27C	verb, normal	verb	ikke vokalskifte_Ø>Ø>Ø pret_0 perf_-T	like_kons fullst	støkke -	678
+199	280	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>I>Å pass_ES	enkelttilfelle fullst	få -	167
+200	281	verb, normal	verb	sterk vokalskifte_E>A>U pret_0 perf_ET adj_be_fl_-NE	like_kons fullst	sleppe -	168
+201	282	verb, normal	verb	sterk vokalskifte_E>A>U pret_0 perf_ET adj_m/f_EN	like_kons fullst	sleppe -	169
+202	283	verb, normal	verb	sterk vokalskifte_E>A>U pret_0 perf_ET adj_be_fl_NE	ulike_kons fullst	hjelpe -	170
+203	284	verb, normal	verb	sterk vokalskifte_E>A>U pret_0 perf_ET adj_m/f_EN	ulike_kons fullst	hjelpe -	171
+204	285	verb, normal	verb	sterk vokalskifte_Y>A>U pret_0 perf_ET adj_be_fl_NE	ulike_kons fullst	synke -	172
+205	286	verb, normal	verb	sterk vokalskifte_Y>A>U pret_0 perf_ET adj_m/f_EN	ulike_kons fullst	synke -	173
+206	287	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_be_fl_-NE	ulike_kons fullst	knekke -	174
+207	288	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_m/f_EN adj_be_fl_-NE	like_kons fullst	knekke -	175
+208	289	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pret_0 perf_TT	fullst	slå -	176
+209	290	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pret_0 perf_TT	fullst	slå -	177
+210	291	verb, normal	verb	sterk vokalskifte_Ø>A>Ø pret_0 perf_ET adj_be_fl_-NE	like_kons fullst	søkke -	178
+211	292	verb, normal	verb	sterk vokalskifte_Ø>A>Ø pret_0 perf_ET adj_m/f_EN adj_be_fl_-NE	like_kons fullst	søkke -	179
+212	293	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_be_fl_-ETE	like_kons fullst	knekke	777
+213	294	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_be_fl_-EDE	like_kons fullst	knekke	778
+214	295	verb, normal	verb	sterk vokalskifte_U>AU>U  pret_0 perf_T	fullst	supe -	180
+215	296	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>E>Å 	enkelttilfelle	få -	181
+216	297	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>E>Å PASS_ES	enkelttilfelle	få -	182
+217	298	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>JE>Å	enkelttilfelle	gå -	183
+218	299	verb, normal	verb	sterk på_rotvokal vokalskifte_Å>JE>Å PASS_ES	enkelttilfelle	gå -	184
+219	29A	verb, normal	verb	sterk vokalskifte_Æ>A>Å pret_0 perf_ET adj_be_fl_NE	fullst	bære -	185
+220	300	verb, normal	verb	sterk vokalskifte_Æ>A>Å pret_0 perf_ET adj_m/f_EN	fullst	bære -	186
+221	301	verb, normal	verb	sterk vokalskifte_Æ>A>Å J-bortfall pret_0 perf_ET adj_be_fl_NE	fullst	skjære -	187
+222	302	verb, normal	verb	sterk vokalskifte_Æ>A>Å J-bortfall pret_0 perf_ET adj_m/f_EN	fullst	skjære -	188
+223	303	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal	fullst kortform enkelttilfelle "få til" "gi lov"	la	189
+224	304	verb, normal	verb	sterk vokalskifte_A>O>A pret_0 perf_T	fullst	etterlate	190
+225	305	verb, normal	verb	sterk uten_vokalskift pret_0 perf_T	fullst	låte	191
+226	306	verb, normal	verb	sterk vokalskifte_Å>E>Å pret_0 perf_T	fullst	gråte -	192
+227	307	verb, normal	verb	sterk vokalskifte_E>O>E pret_0 perf_D	fullst	veve -	193
+228	308	verb, normal	verb	sterk uten_vokalskifte pret_0 perf_ET adj_be_fl_NE	fullst	sove -	194
+229	309	verb, normal	verb	sterk uten_vokalskifte pret_0 perf_ET adj_m/f_EN	fullst	sove -	195
+230	310	verb, normal	verb	sterk uten_vokalskifte MM pret_- perf_ET adj_be_fl_-NE	dobbel_kons_like fullst	komme -	196
+231	311	verb, normal	verb	sterk uten_vokalskifte MM pret_- perf_ET adj_m/f_EN adj_be_fl_-NE	like_kons fullst	komme -	197
+232	312	verb, normal	verb	sterk vokalskifte_E>A>Å  pret_0 perf_ET adj_be_fl_NE	fullst	stjele -	198
+233	313	verb, normal	verb	sterk vokalskifte_E>A>Å  pret_0 perf_ET adj_m/f_EN	fullst	stjele -	199
+234	314	verb, normal	verb	sterk vokalskifte_I>A>A på_rotvokal	fullst enkelttilfelle	si -	200
+235	315	verb, normal	verb	sterk vokalskifte_I>A>A pass_ES på_rotvokal	enkelttilfelle fullst	si -	201
+236	316	verb, normal	verb	sterk vokalskifte_A>O>A pret_0 perf_T	fullst	male -	202
+237	324	verb, normal	verb	sterk vokalskifte_I>A>I pret_0 perf_ET adj_be_fl_-NE	like_kons fullst	sitte -	203
+238	325	verb, normal	verb	sterk vokalskifte_I>A>I pret_0 perf_ET adj_m/f_EN adj_be_fl_-NE	like_kons fullst	sitte -	204
+239	326	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal	fullst enkelttilfelle	gi -	205
+240	327	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal pass_ES prespart_IVENDE	fullst enkelttilfelle	gi -	206
+241	328	verb, normal	verb	sterk vokalskifte_I>Å>I 	like_kons enkelttilfelle fullst	ligge -	207
+242	329	verb, normal	verb	sterk vokalskifte_I>Å>I adj_m/f_EN	like_kons enkelttilfelle fullst	ligge -	208
+243	32A	verb, normal	verb	sterk vokalskifte_I>Å>I pret_- perf_ET adj_be_fl_-NE	like_kons enkelttilfelle fullst	ligge -	209
+244	32B	verb, normal	verb	sterk vokalskifte_I>Å>I pret_- perf_ET adj_m/f_EN	like_kons enkelttilfelle fullst	ligge -	210
+245	32C	verb, normal	verb	sterk vokalskifte_E>Å>E på_rotvokal pret_G perf_TT	fullst	se -	211
+246	330	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_be_fl_NE	fullst	kvede -	212
+247	331	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_m/f_EN	fullst	kvede -	213
+248	332	verb, normal	verb	sterk vokalskifte_E>Å>E på_rotvokal	fullst enkelttilfelle	se -	214
+249	333	verb, normal	verb	sterk vokalskifte_E>Å>E på_rotvokal pass_ES	fullst enkelttilfelle	se -	215
+250	334	verb, normal	verb	sterk vokalskifte_E>A>E  pret_0 perf_T	fullst	drepe -	216
+251	335	verb, normal	verb	hj-v sterk vokalskifte_Æ>A>Æ uten_attr	suppletiv enkelttilfelle	være	217
+252	336	verb, normal	verb	sterk vokalskifte_E>Å>E pret_0 perf_T	fullst	ete	218
+253	337	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_be_fl_NE	fullst ulike_kons	svelte -	219
+254	338	verb, normal	verb	sterk vokalskifte_E>A>E pret_0 perf_ET adj_m/f_EN	fullst ulike_kons	svelte -	220
+255	339	verb, normal	verb	sterk vokalskifte_Æ>A>Æ pret_0 perf_T	fullst	overvære	221
+256	340	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal	fullst enkelttilfelle	gi -	222
+257	341	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal	fullst enkelttilfelle	gi -	223
+258	346	verb, normal	verb	defekt uten_attr uten_pass	enkelttilfelle	less	224
+259	348	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pret_K perf_TT	fullst	foreta -	225
+260	349	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pass_ES pret_K perf_TT	fullst	foreta -	226
+261	352	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pret_D perf_TT	fullst	bestå -	227
+262	353	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pret_D perf_TT PASS_ES	fullst	bestå -	228
+263	354	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pret_G perf_DD	fullst kortform	dra -	229
+264	355	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pret_G perf_TT	fullst kortform	dra -	230
+265	356	verb, normal	verb	sterk vokalskifte_A>O>A pret_0 perf_-DD	fullst langform	drage -	231
+266	357	verb, normal	verb	sterk vokalskifte_A>O>A pret_0 perf_-TT	fullst langform	drage -	232
+267	358	verb, normal	verb	sterk vokalskifte_E>O>O G-bortfall pret_0 perf_ET adj_be_fl_NE	fullst	sverge -	233
+268	359	verb, normal	verb	sterk vokalskifte_E>O>O G-bortfall pret_0 perf_ET adj_m/f_EN	fullst	sverge -	234
+269	360	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall pret_0 perf_ET adj_be_fl_NE	fullst	sverje -	235
+270	361	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall perf_0 perf_ET adj_m/f_EN	fullst	sverje -	236
+271	362	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pret_0 perf_DD	fullst enkelttilfelle	trå -	237
+272	363	verb, normal	verb	sterk vokalskifte_E>Å>Å på_rotvokal pret_DTE perf_DT	fullst kortform	overtre	238
+273	364	verb, normal	verb	sterk vokalskifte_E>Å>Å pret_TE perf_T	fullst langform	betrede	239
+274	365	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal pret_0 perf_DD	fullst enkelttilfelle	le	240
+275	366	verb, normal	verb	sterk vokalskifte_A>O>A pret_0 perf_D	fullst	grave -	241
+276	367	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pret_0 perf_DD prespart_GENDE	fullst kortform	dra -	242
+277	368	verb, normal	verb	sterk vokalskifte_A>O>A på_rotvokal pret_0 perf_TT prespart_GENDE	fullst kortform	dra -	243
+278	369	verb, normal	verb	sterk vokalskifte_A>O>A pret_- perf_-DD	fullst langform	drage -	244
+279	370	verb, normal	verb	sterk vokalskifte_A>O>A pret_- perf_-TT	fullst langform	drage -	245
+280	372	verb, normal	verb	hj-v m attr per_ETE	enkelttilfelle	ville	787
+281	373	verb, normal	verb	sterk vokalskifte_Y>Ø>Y pret_0 perf_D	fullst	gjenlyde -	246
+282	376	verb, normal	verb	sterk vokalskifte_Y>AU>Y pret_0 perf_T	fullst	tryte	247
+283	378	verb, normal	verb	pret_suffiks vokalskifte_ØY>Ø>Ø pret_TE perf_T	fullst	bløyte -	248
+284	380	verb, normal	verb	hj-v pret_suffiks uten_attr uten_pass uten_prespart uten_imp	modalverb enkelttilfelle	burde	249
+285	381	verb, normal	verb	hj-v pret_suffiks uten_attr uten_pass uten_prespart uten_imp	modalverb enkelttilfelle	tore	250
+286	382	verb, normal	verb	hj-v   med_attr perf_EDE	modalverb enkelttilfelle	ville	251
+287	383	verb, normal	verb	hj-v pret_suffiks pres_vokalskifte uten_imp uten_attr	modalverb enkelttilfelle	kunne	252
+288	384	verb, normal	verb	hj-v pret_suffiks uten_pass uten_prespart uten_imp uten attr	modalverb enkelttilfelle	måtte	253
+289	385	verb, normal	verb	hj-v pret_suffiks uten_pass uten_prespart uten_imp uten_attr	modalverb enkelttilfelle	skulle	254
+290	386	verb, normal	verb	hj-v sterk vokalskifte_I>A>I på_rotvokal uten_attr	enkelttilfelle "overgang fra en tilstand til en annen"	bli -	255
+291	387	verb, normal	verb	hj-v sterk vokalskifte_I>E>I på_rotvokal	enkelttilfelle "overgang fra en tilstand til en annen"	bli -	256
+292	388	verb, normal	verb	hj-v sterk vokalskifte_I>EI>I på_rotvokal 	enkelttilfelle "overgang fra en tilstand til en annen"	bli -	257
+293	389	verb, normal	verb	hj-v pret_suffiks på_rotvokal  uten_attr	enkelttilfelle	ha -	258
+294	38A	verb, normal	verb	hj-v pret_suffiks uten_attr uten_pass	modalverb, enkelttilfelle	tørre	634
+295	38B	verb, normal	verb	hj-v pret_suffiks uten_attr uten_pass	modalverb, enkelttilfelle	tore	626
+296	38C	verb, normal	verb	hj-v pret_suffiks uten_attr uten_pass	modalverb, enkelttilfelle	tørre	625
+297	38D	verb, normal	verb	hj-v defekt	enkelttilfelle	monne	647
+298	390	verb, normal	verb	hj-v pret_suffiks på_rotvokal pass_ES uten_attr	enkelttilfelle	ha -	259
+299	391	verb, normal	verb	vokalskifte_pres_U>A>U pret_TURVDE	enkelttilfelle	turve	728
+300	392	verb, normal	verb	vokalskifte_pres_U>A>U pret_TURVTE	enkelttilfelle	turve	729
+301	400	verb, s-verb	verb	på_S omlyd_I/A	enkelttilfelle	finnes -	260
+302	401	verb, s-verb	verb	på_S omlyd_I/A	enkelttilfelle; unorm 2015-12-10	finnes -	261
+303	401B	verb, s-verb	verb	på_S omlyd_I/A	enkelttilfelle; norm 2015-12-10	finnes	790
+304	402	verb, s-verb	verb	på_S omlyd_Ø/U perf_TS	enkelttilfelle; unorm 2015-12-10	spørres -	262
+305	402A	verb, s-verb	verb	på_S omlyd_Ø/U pres_ES imp_0	enkelttilfelle	spørres	782
+306	403	verb, s-verb	verb	på_S pres_S omlyd_Ø/U perf_TS	enkelttilfelle; unorm 2015-12-10	spørres -	263
+307	403A	verb, s-verb	verb	på_S pres_S omlyd_Ø/U perf_TES imp_0	enkelttilfelle	spørres	783
+308	404	verb, s-verb	verb	på_S pres_ES pret_TES		synes -	264
+309	405	verb, s-verb	verb	på_S pres_S pret_TES perf_TES		synes -	265
+310	406	verb, s-verb	verb	på_S pret_EDES		aldres	266
+311	407	verb, s-verb	verb	på_S pret_TES forenkl	like_kons	grønnes	267
+312	408	verb, s-verb	verb	på_S pret_DES		kives	268
+313	409	verb, s-verb	verb	på_S pret_TES perf_TES forenkl	like_kons	skilles -	269
+314	410	verb, s-verb	verb	på_S pret_TES perf_S forenkl	like_kons	skilles -	270
+315	411	verb, s-verb	verb	på_S resiprokt	enkelttilfelle	slåss	271
+316	412	verb, s-verb	verb	på_S	enkelttilfelle	treffes -	272
+317	413	verb, s-verb	verb	på_S	enkelttilfelle	treffes -	273
+318	414	verb, s-verb	verb	på_S pret_DES forenkl	like_kons	stygges	274
+319	415	verb, s-verb	verb	på_S pret_DES perf_DES forenkl	like_kons	munnhogges	275
+320	416	verb, s-verb	verb	på_S resiprokt	enkelttilfelle	omgås -	276
+321	417	verb, s-verb	verb	på_S resiprokt	enkelttilfelle	omgås -	277
+322	418	verb, s-verb	verb	på_S resiprokt	enkelttilfelle	omgåes -	278
+323	419	verb, s-verb	verb	på_S resiprokt	enkelttilfelle	omgåes -	279
+324	420	verb, s-verb	verb	på_S pres_S pret_DES perf_S		trives	280
+325	421	verb, s-verb	verb	på_S pret_TES perf_T		vederfares	281
+326	422	verb, s-verb	verb	på_S pret_DDES		leies -	282
+327	423	verb, s-verb	verb	på_S pre_ES pret_DES perf_DES		trives	283
+328	424	verb, s-verb	verb	på_S	enkelttilfelle	trives -	284
+329	425	verb, s-verb	verb	på_S pret_TES perf_S		møtes -	621
+330	426	verb, s-verb	verb	på_S pret_ES		nebbes	652
+331	427	verb, s-verb	verb	på_S omlyd_Ø/O pret_RS perf_RS	enkelttilfelle	gjørs	784
+332	428	verb, s-verb	verb	på_S omlyd_A/O pret_KS		nevetas	785
+333	429	verb, s-verb	verb	på_S pres_ES pret_TES perf_TES		synes -	610
+334	430	verb, s-verb	verb	på_S	enkelttilfelle	treffes -	681
+335	431	verb, s-verb	verb	på_S	enkelttilfelle	treffes -%	682
+336	432	verb, s-verb	verb	på_ES omlyd_A/O pret_KES	enkelttilfelle	nevetakes	730
+337	433	verb, s-verb	verb	på_ES omlyd_A/O pret_KS		nevetakes	731
+338	434	verb, s-verb	verb	på_S	enkelttilfelle	sees	732
+339	435	verb, s-verb	verb	på_S	enkelttilfelle	ses	733
+340	436	verb, s-verb	verb	på_S	enkelttilfelle	sees	735
+341	437	verb, s-verb	verb	på_S	enkelttilfelle	sees	736
+342	438	verb, s-verb	verb	på_S	enkelttilfelle	ses	737
+343	439	verb, s-verb	verb	på_S	enkelttilfelle	ses	738
+344	440	verb, s-verb	verb	på_St	enkelttilfelle	idest	747
+345	441	verb, s-verb	verb	på_St	enkelttilfelle, presens	idest	748
+346	442	verb, s-verb	verb	sterkt vokalskifteA>O>A pret_0 perf_0	fullst enkelttilfelle	dras	794
+347	443	verb, s-verb	verb	sterkt vokalskifteA>O>A pret_0 perf_0	fullst eneklttilfelle	dras	795
+348	450	pronomen, normal	pron pers 1 ent hum			jeg	285
+349	451	pronomen, normal	pron pers 2 ent hum			du	286
+350	452	pronomen, normal	pron pers 3 ent mask hum			han	287
+351	453	pronomen, normal	pron pers 3 ent fem hum			hun	288
+352	454	pronomen, normal	pron pers 3 ent fem hum			ho	289
+353	455	pronomen, enkel	pron pers 3 ent nøyt			det	290
+354	456	pronomen, normal	pron pers 1 fl hum			vi	291
+355	457	pronomen, normal	pron pers 2 fl hum			dere	292
+356	458	pronomen, normal	pron pers 3 fl			de	293
+357	459	pronomen, normal	pron refl			seg	294
+358	45A	pronomen, normal	pron pers 2 fl hum			I	295
+359	45B	pronomen, normal	pron pers 3 fl høflig			I	296
+360	45C	pronomen, enkel	pron pers 3 fl			disse	611
+361	45D	pronomen, normal	pron pers 3 ent mask hum			' n	641
+362	45E	pronomen, enkel	pron pers 3 ent fem			inga	643
+363	460	pronomen, enkel	pron pers ent hum nom			man	297
+364	461	pronomen, normal	pron pers 3 fl høflig			De	298
+365	462	pronomen, normal	pron pers 3 ent mask hum			han	299
+366	463	pronomen, enkel	pron pers 3 ent mask fem			den	300
+367	464	pronomen, enkel	pron res fl hum			hverandre	301
+368	465	pronomen, enkel	pron pers ent hum			en	640
+369	466	pronomen, enkel	pron sp hum			hvem	302
+370	467	pronomen, enkel	pron sp			hva	303
+371	468	pronomen, enkel	pron sp poss hum			hvis	304
+372	469	pronomen, enkel	pron ent			ingenting	305
+373	470	determinativ	det poss			min	306
+374	472	determinativ	det poss			din	307
+375	474	determinativ	det poss			sin	308
+376	477	determinativ	det poss			vår	315
+377	478	determinativ	det dem			hin	316
+378	479	determinativ	det dem			hin	317
+379	47A	determinativ, enkel	det poss		Kan slås sammen	hans	309
+380	47B	determinativ, enkel	det poss		Kan slås sammen	hennes	310
+381	47C	determinativ, enkel	det poss		Kan slås sammen	dens	311
+382	47D	determinativ, enkel	det poss		Kan slås sammen	dets	312
+383	47E	determinativ, enkel	det poss		Kan slås sammen	deres	313
+384	47F	determinativ, enkel	det poss res		Kan slås sammen	hverandres	639
+385	47G	determinativ, enkel	det poss høflig		Kan slås sammen	Deres	314
+386	480	determinativ, enkel	det dem mask ent			denne	318
+387	481	determinativ, enkel	det dem mask ent			den	319
+388	482	determinativ	det dem			slik	320
+389	483	determinativ	det dem			sånn	321
+390	484	determinativ	det dem			sådan	322
+391	485	determinativ	det kvant	uten_mask/fem		somt	323
+392	486	determinativ	det kvant	ent	også mang går slik	hver	324
+393	487	determinativ	det kvant	uten_nøyt	noe mat/noe gutter	noe	637
+394	488	determinativ	det sp			hvilken	325
+395	489	determinativ	det kvant			noen	326
+396	48A	determinativ, enkel	det dem nøyt ent			dette	327
+397	48B	determinativ, enkel	det dem fl			disse	328
+398	48C	determinativ, enkel	det dem nøyt ent			det	329
+399	48D	determinativ, enkel	det dem fl			de	330
+400	48E	determinativ, enkel	det dem fem ent			denne	629
+401	48F	determinativ, enkel	det dem fem ent			den	630
+402	490	determinativ	det kvant			ingen	331
+403	490A	determinativ	det kvant			ingen	791
+404	491	determinativ, <adj>	det forst <adj>		enkelttilfelle	egen	332
+405	492	determinativ, <adj>	det forst <adj>		enkelttilfelle	eigen	333
+406	493	determinativ	det kvant			all	334
+407	494	determinativ	det kvant	ent		annenhver	335
+408	495	determinativ	det kvant	ent		enhver	336
+409	496	determinativ	det kvant	ent		en	337
+410	497	determinativ	det kvant	fl ubøyelig		begge	338
+411	498	determinativ	det kvant	fl ubøyelig	tallord	to	339
+412	499	determinativ	det kvant	ent		en	340
+413	49A	determinativ, enkel	det forst <adj>			selv	341
+414	49B	determinativ, enkel	det be			selve	342
+415	49C	determinativ	det kvant	ent		halvannen	343
+416	49D	determinativ	det kvant	ent		halvannen	344
+417	49E	determinativ, enkel	det dem be <adj>			samme	345
+418	49F	determinativ, <adj>	det dem <adj>		enkelttilfelle	annen	346
+419	49G	determinativ, <adj>	det dem <adj>		enkelttilfelle	annen	347
+420	49H	determinativ, <adj>	det dem <adj>		enkelttilfelle	annen	348
+421	49I	determinativ	det kvant	ent		én	631
+422	49J	determinativ, enkel	det kvant be <adj>			eneste	632
+423	49K	determinativ, enkel	det kvant be ent			ene	633
+424	49L	determinativ, enkel	det kvant	unormert		no'	635
+425	49M	determinativ	det kvant	uttr med_dobbel_bøying	enkelttilfelle	mang én	751
+426	49N	determinativ	det kvant	uttr med_dobbel_bøying_fem_éi	enkelttilfelle	mang én	752
+427	49P	determinativ	det kvant	uttr med_dobbel_bøying	enkelttilfelle	mang en	753
+428	49Q	determinativ	det kvant	uttr med_dobbel_bøying_fem_ei	enkelttilfelle	mang en	754
+429	500	adjektiv	adj	nøytr_T	fullst, m gradbøying	rik	349
+430	501	adjektiv	adj	nøytr_0	fullst, m gradbøying	distré -	684
+431	502	adjektiv	adj	nøytr_TT	fullst, m gradbøying	fri	350
+432	503	adjektiv	adj	nøytr_0 fl_0 be_0	fullst, m gradbøying	distré -	685
+433	504	adjektiv	adj	nøytr_0	fullst, m gradbøying	skjelmsk -	351
+434	505	adjektiv	adj	nøytr_0	fullst	diskre -	683
+435	506	adjektiv	adj	nøytr_TT fl_0 be_0	fullst, m gradbøying	rå -	352
+436	506E	adjektiv	adj	suppletiv	enkelttilfelle m suppl gradbøying	små	788
+437	507	adjektiv	adj	nøytr_T	fullst	nøktern	686
+438	508	adjektiv	adj	nøytr_0 redusertend_sup	fullst på_IG, m gradbøying	kraftig	353
+439	509	adjektiv	adj	nøytr_0		diskré -	687
+440	510	adjektiv	adj	nøytr_T redusertend_komp_sup	fullst, m gradbøying	høg -	354
+441	511	adjektiv	adj	nøytr_TT		valgfri	688
+442	512	adjektiv	adj	nøytr_0 fl_0 be_0	fullst, m gradbøying	ru -	355
+443	513	adjektiv	adj	ubøyd	ubøyd	utdanna -	356
+444	514	adjektiv	adj	på_E nøytr_0 fl_0 be_0	fullst, m gradbøying	nøye	357
+445	515	adjektiv	adj <ordenstall>	ubøyd		første	358
+446	516	adjektiv	adj	sup_ub_0 sup_be_E	bare_sup	akterst	359
+447	517	adjektiv	adj	nøytr_0 fl_0 be_0		diskré	689
+448	518	adjektiv	adj	nøytr_0 	fullst	forbundsvis, dansk, beveget	690
+449	519	adjektiv	adj		enkelttilfelle, m suppl gradbøying	verre	638
+450	520	adjektiv	adj	nøytr_-T	fullst, m gradbøying	øde -	360
+451	521	adjektiv	adj	nøytr_TT fl_0 be_0		mørkeblå	691
+452	522	adjektiv	adj		enkelttilfelle, m gradbøying	jamn	361
+453	523	adjektiv	adj			mannjamn	714
+454	524	adjektiv	adj	nøytr_-T	fullst, m gradbøying	frekk	362
+455	526	adjektiv	adj	vokalskifte_nøytr nøytr_T	fullst, m gradbøying	feit -	363
+456	527	adjektiv	adj	nøytr_-T		øde	694
+457	528	adjektiv	adj	nøytr_-T		kriminell	695
+458	529	adjektiv	adj	vokalskifte_nøytr nøytr_T		smellfeit	696
+459	530	adjektiv	adj	på_ET utskyt_fl  utskyt_be fl_NE be_NE	fullst av partisipp på E, m gradbøying	tettskrevet	364
+460	531	adjektiv	adj	på_ET utskyt_fl  utskyt_be fl_NE be_NE		nedskrevet	697
+461	532	adjektiv	adj	på_ET forenkl utskyt_fl  utskyt_be fl_NE be_NE	fullst av partisipp på ET, m gradbøying	nedfrosset	365
+462	533	adjektiv	adj	på_ET forenkl utskyt_fl  utskyt_be fl_NE		nedfrosset	698
+463	534	adjektiv	adj	på_ET utskyt_fl  utskyt_be fl_DE be_DE	fullst, m gradbøying	helhjertet -	366
+464	535	adjektiv	adj	på_ET utskyt_fl  utskyt_be fl_DE be_DE		helhjertet	699
+465	540	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_NE be_NE	fullst, m gradbøying	uskreven	367
+466	541	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_NE be_NE		uskreven	700
+467	542	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_TE be_TE	fullst, m gradbøying	bortløpen -	368
+468	543	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_TE be_TE		bortløpen	701
+469	544	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_NE be_NE nøyt_ENT	fullst, m gradbøying	vrien -	369
+470	545	adjektiv	adj	på_EN utskyt_fl  utskyt_be fl_NE be_NE nøyt_ENT		vrien	702
+471	546	adjektiv	adj	på_EN forenkl utskyt_fl  utskyt_be fl_NE be_NE	fullst av partisipp på EN, m gradbøying	viderekommen	370
+472	547	adjektiv	adj	på_EN forenkl utskyt_fl  utskyt_be fl_NE be_NE		viderekommen	703
+473	548	adjektiv	adj		enkelttilfelle, m gradbøying	maken -	371
+474	549	adjektiv	adj		enkelttilfelle	maken	704
+475	560	adjektiv	adj	på_EL_EN_ER utskyt	fullst, m gradbøying	simpel	372
+476	561	adjektiv	adj	på_EL_EN_ER utskyt		singel	706
+477	562	adjektiv	adj	på_EL_EN_ER utskyt forenkl	fullst, m gradbøying	ekkel	373
+478	563	adjektiv	adj	på_EL_EN_ER utskyt forenkl		dobbel	705
+479	570	adjektiv	adj	MM	fullst også for liketil og likedan, m gradbøying	tam	374
+480	571	adjektiv	adj	MM		hestedum	707
+481	572	adjektiv	adj	nøytr_0 konsfordobling_NN	fullst, m gradbøying	likedan -	375
+482	573	adjektiv	adj	nøytr_0 konsfordobling_NN		likedan	708
+483	574	adjektiv	adj	på_SOM redusertend_sup	fullst, m gradbøying	tvilsom	376
+484	575	adjektiv	adj	på_IS utskyt_fl utskyt_be	fullst, m gradbøying	ymis	377
+485	576	adjektiv	adj	på_IS utskyt_fl utskyt_be		ymis	709
+486	600	adjektiv	adj	omlyd_A>E	fullst enkelttilfelle, m gradbøying	lang	378
+487	601	adjektiv	adj	omlyd_A>E	fullst unorm, m gradbøying	lang	619
+488	602	adjektiv	adj	omlyd_O>Ø	fullst enkelttilfelle, m gradbøying	stor	379
+489	604	adjektiv	adj	suppletiv	fullst, m suppl gradbøying	god	380
+490	605	adjektiv	adj	suppletiv	fullst, m suppl gradbøying	ond	644
+491	606	adjektiv	adj	suppletiv	fullst, m suppl gradbøying	vond -	381
+492	607	adjektiv	adj	suppletiv	samme komp som OND 606, m suppl gradbøying	ille	382
+493	608	adjektiv	adj	omlyd_O>Ø	fullst enkelttilfelle, m gradbøying	grov -	383
+494	610	adjektiv	adj	suppletiv, komp_med_ E	enkelttilfelle, m suppl gradbøying	mange	384
+495	611	adjektiv	adj	suppletiv, komp_uten_ E	enkelttilfelle, m suppl gradbøying	fler	780
+496	612	adjektiv	adj	omlyd_U>Y	fullst, m gradbøying	tung -	385
+497	620	adjektiv	adj	suppletiv	fullst enkelttilfelle jf 621, m suppl gradbøying	gammel	386
+498	621	adjektiv	adj	suppletiv	fullst enkelttilfelle jf 620, m suppl gradbøying 	gammal	387
+499	622	adjektiv	adj		enkelttilfelle, m gradbøying	nær -	388
+500	623	adjektiv	adj	uten gradbøy		eldgammal	710
+501	624	adjektiv	adj	uten gradbøy		eldgammel	711
+502	630	adjektiv	adj	suppletiv	fullst enkelttilfelle, m gradbøying	mye	389
+503	631	adjektiv	adj	uten_positiv	Enkeltilfelle m gradbøy	fler	779
+504	632	adjektiv	adj	omlyd_Å>Æ	enkelttilfelle, m gradbøying	få	390
+505	640	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	lenge	715
+506	641	adjektiv, adverbtype	adv		ordinær, m gradbøying	fort	716
+507	642	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	lenge	717
+508	643	adjektiv, adverbtype	adv	på_E	m gradbøying	ofte	718
+509	644	adjektiv, adverbtype	adv	suppletiv	m gradbøying	gjerne	719
+510	645	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	titt	720
+511	646	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	nær	721
+512	647	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	langt	722
+513	648	adjektiv, adverbtype	adv	redusertend_sup	på_IG, m gradbøying	nødig	723
+514	649	adjektiv, adverbtype	adv	Adj_til_Adv_med_T	ordinær, m gradbøying	snart	755
+515	650	adjektiv	adj	uten_positiv	m gradbøying	undre	391
+516	652	adjektiv	adj	uten_positiv	m gradbøying	øvre -	392
+517	654	adjektiv	adj	uten_positiv	m gradbøying	ytre -	393
+518	655	adjektiv	adjektiv	uten_positiv	m gradbøying	engere	781
+519	656	adjektiv	adj	uten_positiv redusertend_komp_sup	enkelttilfelle, m gradbøying	indre -	394
+520	657	adjektiv	adj	uten_positiv redusertend_komp_sup	enkelttilfelle, m gradbøying	indre -	395
+521	664	adjektiv	adj		enkelttilfelle	emeritus	396
+522	665	adjektiv, ulik m/f	adj	fem_A, nøytr_LITE, be_LILLE	fullst, enkelttilfelle, m gradbøying	liten -	397
+523	665A	adjektiv, ulik m/f	adj	fem_EN, nøytr_LITE, be_LILLE	fullst, enkelttilfelle, m gradbøying	liten -	760
+524	666	adjektiv, ulik m/f	adj	fem_A, nøytr_SMÅTT, be_LILLE	fullst, enkelttilfelle, m gradbøying	liten -	398
+525	666A	adjektiv, ulik m/f	adj	fem_EN, nøytr_SMÅTT, be_LILLE	fullst, enkelttilfelle, m gradbøying	liten -	761
+526	667	adjektiv, ulik m/f	adj	fem_A, nøytr_LITE, be_LILLE		ørliten -	712
+527	667A	adjektiv, ulik m/f	adj	fem_EN, nøytr_LITE, be_LILLE		ørliten -	762
+528	668	adjektiv, ulik m/f	adj	fem_A, nøytr_SMÅTT, be_LILLE		ørliten -	713
+529	668A	adjektiv, ulik m/f	adj	fem_EN, nøytr_SMÅTT, be_LILLE		ørliten -	763
+530	669	adjektiv, ulik m/f	adj	fem_A, nøytr_LITE, be_VESLE	fullst, enkelttilfelle m gradbøying	liten -	764
+531	669A	adjektiv, ulik m/f	adj	fem_A, nøytr_SMÅTT, be_VESLE	fullst, enkelttilfelle, m gradbøying	liten -	768
+532	670	adjektiv, ulik m/f	adj	fem_EN, nøytr_LITE, be_VESLE	fullst, enkelttilfelle, m gradbøying	liten -	765
+533	670A	adjektiv, ulik m/f	adj	fem_EN, nøytr_SMÅTT, be_VESLE	fullst, enkelttilfelle, m gradbøying	liten -	769
+534	671	adjektiv, ulik m/f	adj	fem_A, nøytr_LITE, be_VESLE		ørliten -	766
+535	671A	adjektiv, ulik m/f	adj	fem_A, nøytr_SMÅTT, be_VESLE		ørliten -	770
+536	672	adjektiv, ulik m/f	adj	fem_EN, nøytr_LITE, be_VESLE		ørliten -	767
+537	672A	adjektiv, ulik m/f	adj	fem_EN, nøytr_SMÅTT, be_VESLE		ørliten -	771
+538	674	adjektiv, adverbtype	adj <adv>		enkelttilfelle	lenge -	636
+539	675	adjektiv, adverbtype	adj <adv>	ordinær	m gradbøying	fort	399
+540	676	adjektiv, adverbtype	adj <adv>		enkelttilfelle, m gradbøying	lenge -	400
+541	677	adjektiv, adverbtype	adj <adv>	på_E	m gradbøying	ofte	401
+542	678	adjektiv, adverbtype	adj <adv>	suppletiv	m gradbøying	gjerne	402
+543	679	adjektiv, adverbtype	adj <adv>		enkelttilfelle, m gradbøying	titt	403
+544	686	adjektiv, adverbtype	adj <adv>		enkelttilfelle, m gradbøying	nær -	405
+545	689	adjektiv, adverbtype	adj <adv>		enkelttilfelle, m gradbøying	langt	406
+546	690	adjektiv, adverbtype	adj <adv>	redusertend_sup, m gradbøying	på_IG	nødig	407
+547	691	preposisjon	prep			av	408
+548	692	konjunksjon	konj			og	409
+549	693	subjunksjon	sbu			at	410
+550	694	interjeksjon	interj			hysj	411
+551	695	adverb	adv	ubøyelig		akkurat	412
+552	696	subjunksjon	inf-merke			å	413
+553	697	konjunksjon	konj <adv>			både	414
+554	698	subjunksjon	sbu <spørreartikkel>			mon	415
+555	699	konjunksjon	CLB konj			og	620
+556	700	substantiv	subst mask appell		fullst	bil	416
+557	701	substantiv	subst mask appell	med_bindestrek	fullst	A	417
+558	702	substantiv	subst mask appell	på_E	fullst	time	418
+559	703	substantiv	subst mask appell	aksent	fullst svarer til 700	komité	419
+560	704	substantiv	subst mask appell	fl ub uten ending fl be A	fullst	feil	658
+561	705	substantiv	subst mask appell	på_OS fl_ub_--ER fl_be_--ENE gresk	fullst enkelttilfelle	daktylos	420
+562	706	substantiv	subst mask appell	på_OS fl_ub_-ER fl_be_-ENE gresk	fullst enkelttilfelle	heros	421
+563	707	substantiv	subst mask appell	ub en É%	fullst	hellebardér	659
+564	709	substantiv	subst mask appell	fl_ub_E tysk	fullst enkelttilfelle	bundsforvant	642
+565	711	substantiv	subst mask appell	på_ER fl_ub_ER fl_be_NE	fullst	skriver -	422
+566	712	substantiv	subst mask appell	på_ER fl_ub_E	fullst	skriver -	423
+567	713	substantiv	subst mask appell	på_ER fl_ub_0	fullst	meter	424
+568	714	substantiv	subst mask appell	på_RA_fl_ub_RE_fl_be_RENE	fullst enkelttilfelle	ginstra (gyvel)	759
+569	715	substantiv	subst mask appell	fl_ub_0	fullst	ting	425
+570	716	substantiv	subst mask appell	på_E fl_ub_0	fullst	lire	426
+571	717	substantiv	subst mask appell	på_ER utskyt_03_04	fullst	seier	427
+572	718	substantiv	subst mask appell	med_bindestrek fl_ub_0	fullst	pH	648
+573	719	substantiv	subst mask appell	på_RA_fl_ub_RER_fl_be_RENE	fullst enkelttilfelle	ginstra (gyvel)	758
+574	720	substantiv	subst mask appell	på_EL_EN_ER utskyt_03_04	fullst	regel	428
+575	721	substantiv	subst mask appell	på_EL_EN_ER forenkl utskyt_03_04	fullst	tittel	429
+576	722	substantiv	subst mask appell	på_EL_EN_ER utskyt_04 fl_ub_0	fullst	yngel	430
+577	723	substantiv	subst mask appell	på_EL_EN_ER utskyt_03_04 fl_ub_0 fl_be_A	fullst	forelder -	431
+578	724	substantiv	subst mask appell	på_EL_EN_ER utskyt_03_04 fl_ub_0 fl_be_ENE	fullst	forelder -	432
+579	725	substantiv	subst mask appell	MM	fullst	kam	433
+580	726	substantiv	subst mask appell	på_AR MM utskyt_03_04	fullst	hammar	434
+581	727	substantiv	subst mask appell	utskyt_03_04	fullst	jotun -	435
+582	728	substantiv	subst mask appell	utskyt_02_03_04	fullst	jotun -	436
+583	729	substantiv	subst mask appell	på_AR utskyt_03_04	fullst	navar -	437
+584	730	substantiv	subst mask appell	på_US ent_be_--EN fl_ub_--ER fl_be_--ENE latin	fullst	dekanus	438
+585	731	substantiv	subst mask appell	på_IS ent_be_--EN fl_ub_--ER fl_be_--ENE latin	fullst	amanuensis	439
+586	732	substantiv	subst mask appell	på_IS fl_ub_-IDER fl_be_-IDENE latin	fullst	apsis -	440
+587	733	substantiv	subst mask appell	på_UM fl_ub_--ER fl_be_--ENE latin	fullst	krysantemum -	441
+588	734	substantiv	subst mask appell	på_A fl_ub_-ER fl_be_-ENE latin	fullst	begonia -	442
+589	735	substantiv	subst mask appell	på_US fl_ub_--IER fl_be_--IENE latin	fullst	dinosaurus -	443
+590	736	substantiv	subst mask appell	på_IUM fl_ub_--ER fl_be_--ENE latin	fullst	geranium -	444
+591	737	substantiv	subst mask appell	på_UM fl_ub_--A fl_be_--AENE latin	fullst	datum -	445
+592	738	substantiv	subst mask appell	på_IS fl_ub_-ER fl_be_-ENE latin	fullst enkelttilfelle	taksis -	446
+593	739	substantiv	subst mask appell	på_IS fl_ub_--ER fl_be_--ENE latin	fullst	dosis -	447
+594	740	substantiv	subst mask appell	på_I fl_ub_M fl_be_MENE hebraisk	fullst	sefardi	448
+595	741	substantiv	subst mask appell	fl_ub_ER fl_be_A	fullst unormert	gutt	618
+596	742	substantiv	subst mask appell	utskyt_03_04 forenkl fl_ub_E	fullst unormert	sommer -	627
+597	747	substantiv	subst nøyt appell	fl_ub_S_-0_fl_b_S_-ENE_fransk	fullst enkelttilfelle	enfant terrible	793
+598	748	substantiv	subst mask appell	på_E fl_ub_S	fullst	centime -	449
+599	749	substantiv	subst mask appell	på_ERE fl_be_ERNE	bare_fl	kynnere	727
+600	750	substantiv	subst mask appell	ON>ES_03_04 fl_ub_S fl_be_SENE fransk	fullst enkelttilfelle	monsieur	792
+601	751	substantiv	subst mask appell	på_O fl_ub_-I fl_be_-IENE italiensk	fullst	konto -	450
+602	752	substantiv	subst mask appell	fl_ub_S_--0_fl_b_S_--ENE_fransk	fullst enkelttilfelle	%affaires	789
+603	753	substantiv	subst mask appell	på_US fl_ub_--ER fl_be_--ENE	fullst	auksjonarius	451
+604	754	substantiv	subst mask appell	fl_ub_R fl_be_RNE	fullst	sko -	452
+605	755	substantiv	subst mask appell	på_IO fl_ub_-ER fl_be_-ENE italiensk	fullst	impresario -	453
+606	756	substantiv	subst mask appell	på_US fl_ub_--I fl_be_--IENE latin	fullst	modus	454
+607	757	substantiv	subst mask appell	på_US fl_ub_--ERA fl_be_--ERAENE latin	fullst enkelttilfelle	genus -	455
+608	759	substantiv	subst mask appell	på_KS fl_ub_--GER fl_be_--GENE gresk	fullst enkelttilfelle	falanks -	456
+609	760	substantiv	subst mask appell	omlyd_O>Ø på_E	fullst enkelttilfelle	bonde	457
+610	761	substantiv	subst mask appell	omlyd_O>Ø fl_ub_-DRE fl_be_DRENE	fullst enkelttilfelle	bror	458
+611	762	substantiv	subst mask appell	omlyd_A>E fl_ub_-DRE fl_be_DRENE	fullst enkelttilfelle	far	459
+612	763	substantiv	subst mask appell	omlyd_O>Ø konsfordobling_fl	fullst	fot	460
+613	764	substantiv	subst mask appell	omlyd_A>E fl_ub_0	fullst enkelttilfelle	mann	461
+614	765	substantiv	subst mask appell	omlyd_A>E	fullst enkelttilfelle	stad	462
+615	766	substantiv	subst mask appell	omlyd_A>E	fullst	stand	463
+616	767	substantiv	subst mask appell	omlyd_Å>Æ	fullst	ås	464
+617	768	substantiv	subst mask appell	omlyd_A>E fl_ub_--RE fl_be_--RENE	fullst enkelttilfelle	fader	465
+618	769	substantiv	subst mask appell	omlyd_O>Ø	fullst	hov	466
+619	76A	substantiv	subst mask appell	omlyd_O>E	fullst enkelttilfelle	voss	467
+620	76B	substantiv	subst mask appell	omlyd_O>Ø utskyt_03_04 fl_ub_E	fullst enkelttilfelle	broder	468
+621	76C	substantiv	subst mask appell	omlyd_O>Ø utskyt_03_04 fl_ub_E	fullst enkelttilfelle	moder -	469
+622	76D	substantiv	subst mask appell	omlyd_O>Ø utskyt_03_04	fullst enkelttilfelle	moder -	470
+623	76E	substantiv	subst mask appell	omlyd_O>Ø fl_ub_-DRE fl_be_-DRENE	fullst enkelttilfelle	mor -	471
+624	76F	substantiv	subst mask appell	omlyd_O>Ø fl_ub_-DRER fl_be_-DRENE	fullst enkelttilfelle	mor -	472
+625	76G	substantiv	subst mask appell	omlyd_A>Ø fl_ub_---RE fl_be_---RENE	fullform	datter -	473
+626	76H	substantiv	subst mask appell	omlyd_A>Ø fl_ub_---RER fl_be_---RENE	fullst enkelttilfelle	datter -	474
+627	76I	substantiv	subst mask appell	omlyd_Å>Æ fl_ub_R fl_be_RNE	fullst	flå -	475
+628	76J	substantiv	subst mask appell	omlyd_O>E	fullst ulike_kons	rong -	476
+629	76K	substantiv	subst mask appell	omlyd_A>E	fullst like_kons	natt -	477
+630	76L	substantiv	subst mask appell	omlyd_O>Ø fl_ub_R fl_be_RNE	fullst	glo -	478
+631	76M	substantiv	subst mask appell	omlyd_Å>Æ J-flyt 	fullst	skåk -	479
+632	76N	substantiv	subst mask appell	omlyd_Å>Æ J-flyt fl_ub_S fl_be_SENE	fullst	gås -	480
+633	76O	substantiv	subst mask appell	omlyd_U>Y fl_ub_R fl_be_RNE	fullst enkelttilfelle	ku -	481
+634	76P	substantiv	subst mask appell	omlyd_Å>E	fullst	hånd -	482
+635	770	substantiv	subst mask appell	fl_ub_S fl_be_ENE engelsk	fullst	fan	483
+636	771	substantiv	subst mask appell	omlyd_Å>Æ	fullst like_kons	tått -	650
+637	772	substantiv	subst mask appell	fl_ub_S fl_be_SENE engelsk	fullst	slide	484
+638	773	substantiv	subst mask appell	på_E fl_ub_S fl_be_NE engelsk	fullst	mile	485
+639	774	substantiv	subst mask appell	på_ON fl_ub_S engelsk	bare_ub	displaced_person	486
+640	775	substantiv	subst mask appell	på_Y fl_ub_-IES engelsk	fullst	royalty -	487
+641	776	substantiv	subst mask appell	på_MAN fl_ub_--MEN engelsk	bare_ub	gentleman	488
+642	777	substantiv	subst appell	på_S fl_be_ENE engelsk	bare_fl	flaps	489
+643	778	substantiv	subst mask appell	på_CH fl_ub_ES engelsk	fullst	inch	490
+644	779	substantiv	subst mask appell	på_NY fl_ub_--CE fl_be_--CENE engelsk	fullst enkelttilfelle	penny -	491
+645	780	substantiv	subst mask appell	på_ER fl_be_-NE latin	bare_fl jf. 781	formalier	492
+646	781	substantiv	subst mask appell	på_IA fl_be_-ENE latin	bare_fl jf. 780	formalia	493
+647	782	substantiv	subst mask appell	PÅ_E fl_be_NE	bare_fl	forfedre	494
+648	783	substantiv	subst mask appell	på_IA fl_ub_-ER fl_be_-ENE latin	fullst	promemoria - 	649
+649	784	substantiv	subst mask appell	på_EN  ub_NE fl_ub_NE fl_be_NE	fullst	kristen	741
+650	785	substantiv	subst mask appell	på_I  italiensk	bare_fl	carbonari	496
+651	786	substantiv	subst mask appell	på_O fl_ub_-I italiensk	bare_ub jf. 751	basso - 	497
+652	787	substantiv	subst appell	på_ER fl_be_-ENE	bare_fl ikke kjonn	aksessoar	673
+653	788	substantiv	subst mask appell	ub_fl_pa_i	fullst	ringgit	674
+654	789	substantiv	subst appell	bare_ub	enkelttilfelle	ars	734
+655	790	substantiv, ubøy	subst mask appell ubøy		ubøyd	barsok	498
+656	791	substantiv	subst mask appell		bare_ent_be	søten	499
+657	795	substantiv, ubøy	subst mask prop			Per	500
+658	800	substantiv	subst nøyt appell	fl_ub_0 fl_be_A	fullst	tak -	501
+659	801	substantiv	subst nøyt appell	fl_ub_ER fl_be_A	fullst	granul -	502
+660	802	substantiv	subst nøyt appell	på_E fl_ub_R fl_be_A	fullst	styre -	503
+661	803	substantiv	subst nøyt appell	med_bindestrek fl_ub_0 fl_be_A	fullst	OL -	504
+662	804	substantiv	subst nøyt appell	på_E fl_ub_E fl_be_A	fullst	løyve -	505
+663	805	substantiv	subst nøyt appell	med_bindestrek fl_ub_ER fl_be_ENE	fullst	PM -	506
+664	806	substantiv	subst nøyt appell	med_bindestrek fl_ub_ER fl_be_A	fullst	CV -	672
+665	807	substantiv	subst nøyt appell	på_ER fl_ub_0 fl_be_NE	fullst	pulver	772
+666	808	substantiv	subst nøyt appell	utskyt_04 fl_ub_0 fl_be_ENE	fullst	søsken -	507
+667	809	substantiv	subst nøyt appell		enkelttilfelle	øye -	508
+668	810	substantiv	subst nøyt appell	fl_ub_0 fl_be_ENE	fullst	tak -	509
+669	811	substantiv	subst nøyt appell	fl_ub_ER fl_be_ENE	fullst	granul -	510
+670	812	substantiv	subst nøyt appell	på_E fl_ub_R fl_be_NE	fullst	styre -	511
+671	813	substantiv	subst nøyt appell	med_bindestrek fl_ub_0 fl_be_ENE	fullst	OL -	512
+672	814	substantiv	subst nøyt appell	på_E fl_ub_0 fl_be_NE	fullst	løyve -	513
+673	815	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_0 fl_be_A	fullst	orgel -	514
+674	816	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_0 fl_be_ENE	fullst	orgel -	515
+675	817	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_ER fl_be_A	fullst	krangel -	516
+676	818	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_ER fl_be_ENE	fullst	krangel -	517
+677	819	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_0 fl_be_A	fullst	rabalder -	518
+678	820	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_0 fl_be_ENE	fullst	rabalder -	519
+679	821	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_ER fl_be_A	fullst	orgel -	520
+680	822	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_ER fl_be_ENE	fullst	orgel -	521
+681	823	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_E fl_be_A	fullst	alter -	522
+682	824	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_E fl_be_A	fullst	alter -	523
+683	825	substantiv	subst nøyt appell	utskyt_02_03_04 fl_ub_E fl_be_ENE	fullst	alter -	524
+684	826	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_E fl_be_A	fullst	beger -	525
+685	827	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_E fl_be_ENE	fullst	beger -	526
+686	828	substantiv	subst nøyt appell	fl_ub_E fl_be_NE	fullst	pulver -	527
+687	829	substantiv	subst nøyt appell		enkelttilfelle	tympanon	653
+688	830	substantiv	subst nøyt appell	MM fl_be_A	fullst	rom -	528
+689	831	substantiv	subst nøyt appell	MM fl_be_ENE	fullst	rom -	529
+690	832	substantiv	subst nøyt appell	MM fl_ub_ER fl_be_A	fullst	medlem -	530
+691	833	substantiv	subst nøyt appell	MM fl_ub_ER fl_be_ENE	fullst	medlem -	531
+692	834A	substantiv	subst nøyt appell	LL fl_be_A	fullst	farvel -	775
+693	834B	substantiv	subst nøyt appell	LL fl_be_ENE	fullst	farvel - 	776
+694	835	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_0 fl_be_A	fullst	middel -	532
+695	836	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_0 fl_be_ENE	fullst	middel -	533
+696	837	substantiv	subst nøyt appell	forenkl utskyt_02_03_04 fl_ub_ER fl_be_A	fullst	middel -	534
+697	838	substantiv	subst nøyt appell	forenkl utskyt_02_03_04 fl_ub_ER fl_be_ENE	fullst	middel -	535
+698	839	substantiv	subst nøyt appell	forenkl utskyt_02_03_04 fl_ub_E fl_be_A	fullst	gitter -	536
+699	840	substantiv	subst nøyt appell	forenkl utskyt_02_03_04 fl_ub_E fl_be_ENE	fullst	gitter -	537
+700	841	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_E fl_be_A	fullst	kammer -	538
+701	842	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_E fl_be_ENE	fullst	kammer -	539
+702	843	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_ER fl_be_A	fullst	trippel -	540
+703	844	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_ER fl_be_ENE	fullst	trippel -	541
+704	845	substantiv	subst nøyt appell	på_ER fl_ub_E fl_be_NE engelsk	fullst	water -	651
+705	846	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_0 fl_be_A	fullst	fikkel	654
+706	847	substantiv	subst nøyt appell	forenkl utskyt_03_04 fl_ub_0 fl_be_A	fullst	fikkel	655
+707	848	substantiv	subst nøyt appell	fl_ub_ER fl_be_ENE	bare_fl	gaselløyer	724
+708	849	substantiv	subst nøyt appell	fl_ub_ER fl_be_A	bare_fl	gaselløyer	725
+709	850	substantiv	subst nøyt appell	på_UM ent_be_ET fl_ub_--A fl_be_--AENE latin	fullst	maskulinum -	542
+710	851	substantiv	subst nøyt appell	på_UM ent_be_--ET fl_ub_--ER fl_be_--A latin	fullst	maskulinum -	543
+711	852	substantiv	subst nøyt appell	på_UM ent_be_--ET fl_ub_--ER fl_be_--ENE latin	fullst	maskulinum -	544
+712	853	substantiv	subst nøyt appell	på_UM ent_be_ET fl_ub_--E fl_be_--A	fullst	monstrum -	545
+713	854	substantiv	subst nøyt appell	på_UM ent_be_ET fl_ub_--E fl_be_--ENE latin	fullst	monstrum -	546
+714	855	substantiv	subst nøyt appell	på_UM ent_be_--ET fl_ub_--E fl_be_--A latin	fullst	monstrum -	547
+715	856	substantiv	subst nøyt appell	på_UM ent_be_--ET fl_ub_--E fl_be_--ENE latin	fullst	monstrum -	548
+716	857	substantiv	subst nøyt appell	på_UM ent_be_ET fl_ub_--ER fl_be_--A latin	fullst	verbum -	549
+717	858	substantiv	subst nøyt appell	på_UM ent_be_ET fl_ub_--ER fl_be_--ENE latin	fullst	verbum -	550
+718	859	substantiv	subst nøyt appell	på_UM ent_be_--ET fl_ub_--A fl_be_--AENE latin	fullst	metrum -	646
+719	860	substantiv	subst nøyt appell	på_ER fl_be_NE engelsk	fullst	cover -	551
+720	861	substantiv	subst nøyt appell	på_EN fl_ub_--INA fl_be_--INAENE latin	fullst	omen -	552
+721	862	substantiv	subst nøyt appell	fl_ub_IER fl_be_IENE latin	fullst	animal -	553
+722	863	substantiv	subst nøyt appell	på_O fl_ub_-I fl_be_-IENE italiensk	fullst	divertimento -	554
+723	864	substantiv	subst nøyt appell	på_IA fl_ub_-ER fl_be_-ENE latin	fullst	gloria -	555
+724	865	substantiv	subst nøyt appell	omlyd_E>Æ fl_ub_R fl_be_RNE	fullst	kne -	556
+725	866	substantiv	subst nøyt appell	på_US fl_ub_--ORA fl_be_--ORAENE latin	fullst	tempus -	557
+726	867	substantiv	subst nøyt appell	på_US fl_ub_--ER fl_be_--ENE latin	fullst	kursus	558
+727	868	substantiv	subst nøyt appell	på_ON fl_ub_--A fl_be_--AENE gresk	fullst	leksikon -	559
+728	869	substantiv	subst nøyt appell	på_ON ent_be_--ET fl_ub_--ER  fl_be_--A gresk	fullst	symposion -	560
+729	870	substantiv	subst nøyt appell	på_ON ent_be_--ET fl_ub_--ER fl_be_--ENE gresk	fullst	symposion -	561
+730	871	substantiv	subst nøyt appell	på_US fl_ub_--ERA fl_be_--ERAENE latin	fullst	genus -	562
+731	872	substantiv	subst nøyt appell	fl_ub_S fl_be_SA engelsk	fullst	still -	563
+732	873	substantiv	subst nøyt appell	fl_ub_S fl_be_SENE engelsk	fullst	still -	564
+733	874	substantiv	subst nøyt appell	aksent ent_be_EET fl_ub_EER fl_be_EA	fullst svarer til 801	kommuniké -	565
+734	875	substantiv	subst nøyt appell	aksent ent_be_EET fl_ub_EER fl_be_EENE	fullst	kommuniké -	566
+735	876	substantiv	subst nøyt appell	aksent ent_be_EET fl_ub_É fl_be_EA	fullst	jubilé -	567
+736	877	substantiv	subst nøyt appell	aksent ent_be_EET fl_ub_É fl_be_EENE	fullst	jubilé -	568
+737	878	substantiv	subst nøyt appell	omlyd_O>Ø fl_ub_R fl_be_RNE	fullst	flo -	569
+738	879	substantiv	subst nøyt appell	fl_ub_NE fl_be_NENE	bare_fl	gaselløyne	726
+739	880	substantiv	subst nøyt appell	fl_ub_0 fl_be_NE	bare_fl	klær	570
+740	881	substantiv	subst nøyt appell	uten_ent  fl_ub_0 fl_be_A	bare_fl	høns -	739
+741	882	substantiv	subst nøyt appell	uten_ent fl_ub_0 fl_be_ENE	bare_fl	høns -	740
+742	883	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_ER fl_be_ENE	bare_fl	%møbler	745
+743	884	substantiv	subst nøyt appell	utskyt_03_04 fl_ub_ER fl_be_A	bare_fl	%møbler	746
+744	890	substantiv, ubøy	subst nøyt appell ubøy		ubøyd	norrønt	571
+745	895	substantiv, ubøy	subst nøyt prop		ent_be	Atlanterhavet	572
+746	900	substantiv	subst fem appell		fullst	dør	573
+747	901	substantiv	subst fem appell	med_bindestrek	fullst	abc	574
+748	902	substantiv	subst fem appell	på_E	fullst	kvinne	575
+749	915	substantiv	subst fem appell	fl_ub_0	fullst	mil	576
+750	920	substantiv	subst fem appell	utskyt_02_03_04	fullst	aksel	577
+751	921	substantiv	subst fem appell	utskyt_02_03_04 fl_ub_0	fullst	alen -	578
+752	922	substantiv	subst fem appell	utskyt_02_03_04 fl_ub_E	fullst	faster -	579
+753	925	substantiv	subst fem appell	forenkl utskyt_02_03_04	fullst	grissel	580
+754	926	substantiv	subst fem appell	forenkl utskyt_02_03_04 ub fl E	fullst	gimmer	660
+755	930	substantiv	subst fem appell	MM	fullst	rem	581
+756	940	substantiv	subst fem appell		fullst enkelttilfelle	datter -	582
+757	941	substantiv	subst fem appell		fullst enkelttilfelle	datter -	583
+758	942	substantiv	subst fem appell	omlyd_O>Ø	fullst enkelttilfelle	mor -	584
+759	943	substantiv	subst fem appell	omlyd_O>Ø	fullst enkelttilfelle	mor -	585
+760	944	substantiv	subst fem appell		fullst enkelttilfelle	søster -	586
+761	945	substantiv	subst fem appell		fullst enkelttilfelle	søster -	587
+762	946	substantiv	subst fem appell	omlyd_Å>Æ fl_ub_R fl_be_RNE	fullst	flå -	588
+763	947	substantiv	subst fem appell	bare_fl	enkelttilfelle	formødrer	743
+764	948	substantiv	subst fem appell	omlyd_O>E	fullst ulike_kons	rong	589
+765	949	substantiv	subst fem appell	omlyd_O>E	fullst like kons	dokk	645
+766	950	substantiv	subst fem appell	omlyd_A>E	fullst like_kons	natt	590
+767	951	substantiv	subst fem appell	omlyd_A>E	fullst ulike_kons	and	591
+768	952	substantiv	subst fem appell	omlyd_O>Ø	fullst	bok	592
+769	953	substantiv	subst fem appell	omlyd_O>Ø fl_ub_R fl_be_RNE	fullst	glo	593
+770	954	substantiv	subst fem appell	omlyd_O>Ø konsfordobling_fl	fullst	rot	594
+771	955	substantiv	subst fem appell	omlyd_Å>Æ	fullst	tåg	595
+772	956	substantiv	subst fem appell	omlyd_Å>Æ J-flyt	fullst	skåk	596
+773	957	substantiv	subst fem appell	omlyd_Å>Æ J-flyt fl_ub_S fl_be_SENE	fullst	gås -	597
+774	959	substantiv	subst fem appell	på_rotvokal omlyd_U>Y fl_ub_R fl_be_RNE	fullst	ku -	598
+775	962	substantiv	subst fem appell	omlyd_Å>E	fullst	hånd -	599
+776	970	substantiv	subst fem appell	på_ER	bare_fl	lappesaker	600
+777	972	substantiv	subst fem appell	fl_ub_0 fl_be_NE	bare_fl	tær	601
+778	990	substantiv, ubøy	subst fem appell ubøy		ubøyd	gaukemess	602
+779	991	substantiv	subst fem appell		bare_ent_be	søta	603
+780	994	substantiv, ubøy	subst prop gen			Jesu	604
+781	995	substantiv, ubøy	subst fem prop			Anne	605
+782	996	substantiv, ubøy	subst prop		vag_genus	Sovjetunionen	606
+783	997	substantiv, ubøy	subst prop		ent_be	Atlasfjella	607
+784	998	substantiv	subst appell		bare_fl_ub	vegne	608
+785	999	substantiv, ubøy	subst appell ubøy		ubøyd	babord	609

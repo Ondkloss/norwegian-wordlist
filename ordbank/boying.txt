@@ -1,0 +1,63 @@
+LOEPENR	BOY_NUMMER	BOY_GRUPPE	BOY_TEKST	ORDBOK_TEKST
+1	1	substantiv	ent ub	entall_ubestemt
+2	2	substantiv	ent be	entall_bestemt
+3	3	substantiv	fl ub	flertall_ubestemt
+4	4	substantiv	fl be	flertall_bestemt
+5	1	verb, normal	inf	infinitiv
+6	2	verb, normal	pres	presens
+7	3	verb, normal	inf pres pass	infinitiv_presens
+8	4	verb, normal	pret	preteritum
+9	5	verb, normal	perf-part	supinum
+10	6	verb, normal	adj <perf-part> nøyt ub ent	partisipp_intet
+11	7	verb, normal	adj <perf-part> m/f ub ent	partisipp_hanhun
+12	8	verb, normal	adj <perf-part> be ent	partisipp_bestemt
+13	9	verb, normal	adj <perf-part> fl	partisipp_flertall
+14	10	verb, normal	adj <pres-part>	partisipp_presens
+15	1	verb, s-verb	inf <s-verb>	infinitiv
+16	2	verb, s-verb	pres <s-verb>	presens
+17	3	verb, s-verb	pret <s-verb>	preteritum
+18	4	verb, s-verb	perf-part <s-verb>	supinum
+19	5	verb, s-verb	imp <s-verb>	imperativ
+20	1	adjektiv	pos m/f ub ent	entall_hanhun
+21	2	adjektiv	pos fl	flertall
+22	3	adjektiv	pos be ent	entall_bestemt
+23	4	adjektiv	pos nøyt ub ent	entall_intet
+24	5	adjektiv	komp	grad_komparativ
+25	6	adjektiv	sup ub	grad_superlativ
+26	7	adjektiv	sup be	grad_superlativ_bestemt
+27	1	adjektiv, ulik m/f	pos m/f ub ent	entall_han
+28	2	adjektiv, ulik m/f	pos fem ub ent	entall_hun
+29	3	adjektiv, ulik m/f	pos nøyt ub ent	entall_intet
+30	4	adjektiv, ulik m/f	pos be ent	entall_bestemt
+31	5	adjektiv, ulik m/f	pos fl	flertall
+32	6	adjektiv, ulik m/f	komp	grad_komparativ
+33	7	adjektiv, ulik m/f	sup ub	grad_sup
+34	8	adjektiv, ulik m/f	sup be	grad_superaltiv_bestemt
+35	1	adjektiv, adverbtype	pos	grad_pos
+36	2	adjektiv, adverbtype	komp	grad_komparativ
+37	3	adjektiv, adverbtype	sup	grad_superlativ
+38	1	pronomen, normal	nom	nominativ
+39	2	pronomen, normal	akk	objektsform
+40	1	determinativ	mask ent	entall_han
+41	2	determinativ	fem ent	entall_hun
+42	3	determinativ	nøyt ent	entall_intet
+43	4	determinativ	fl	flertall
+44	11	verb, normal	imp	imperativ
+45	1	determinativ, <adj>	mask ub ent	entall_han
+46	2	determinativ, <adj>	fem ub ent	entall_hun
+47	3	determinativ, <adj>	nøyt ub ent	entall_intet
+48	4	determinativ, <adj>	be ent	entall_bestemt
+49	5	determinativ, <adj>	fl	flertall
+50	1	determinativ, enkel		det
+51	1	verb, ubøy		verb
+52	1	pronomen, enkel		pron
+53	1	interjeksjon		interj
+54	1	substantiv, ubøy		subst
+55	1	preposisjon		prep
+56	1	konjunksjon		konj
+57	1	subjunksjon		subjunksjon
+58	1	adverb		adv
+59	1	forkorting	fork	forkorting
+60	1	prefiks	pref	prefiks
+61	1	i sammensetting	i sms	i_sms
+62	1	symbol	symb	symbol

@@ -1,0 +1,25 @@
+LOEPENR	BOY_GRUPPE
+1	adjektiv
+2	adjektiv, adverbtype
+3	adjektiv, ulik m/f
+4	adverb
+5	determinativ
+6	determinativ, <adj>
+7	determinativ, enkel
+8	forkorting
+9	i sammensetting
+10	infinitivsmerke
+11	ingen bøying
+12	interjeksjon
+13	konjunksjon
+14	prefiks
+15	preposisjon
+16	pronomen, enkel
+17	pronomen, normal
+18	subjunksjon
+19	substantiv
+20	substantiv, ubøy
+21	symbol
+22	verb, normal
+23	verb, s-verb
+24	verb, ubøy
