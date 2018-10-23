@@ -12,6 +12,10 @@ The bokmål source material is from [Norsk Ordbank in Norwegian Bokmål 2005](ht
 
 The nynorsk source material is from [Norsk Ordbank in Norwegian Nynorsk 2012](https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-41&lang=en), the 2018-06-26 update. It is released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 
+## Software license
+
+The software in this repo is licensed under WTFPL and can be read in `LICENSE`.
+
 ## Known issues
 
 * The regex to remove proper nouns also removes several valid words as well.
