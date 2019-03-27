@@ -2,8 +2,8 @@ import re
 import tarfile
 import os
 
-BOKMAL = '20180627_norsk_ordbank_nob_2005'
-NYNORSK = '20180626_norsk_ordbank_nno_2012'
+BOKMAL = '20190123_norsk_ordbank_nob_2005'
+NYNORSK = '20190123_norsk_ordbank_nno_2012'
 
 
 def extract_tar(filename):
@@ -20,7 +20,7 @@ def find_lemma_file(directory):
 
 
 def get_file_contents(filename):
-    with open(filename, 'r', encoding='utf8') as content_file:
+    with open(filename, 'r', encoding='cp1252') as content_file:
         content = content_file.read()
 
     return content
