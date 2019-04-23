@@ -6,6 +6,8 @@ Simple project to create a list of Norwegian words. To run:
 
 Example output (and working wordlist) is `wordlist_20190123_norsk_ordbank_nob_2005.txt` and `wordlist_20190123_norsk_ordbank_nno_2012.txt`.
 
+To handle sorting of ÆØÅ you can include the PyICU module. This also fixes some diacritic issues (EÉÈÊ), but might give some illogical results for AA sorted as Å.
+
 ## Source
 
 The bokmål source material is from [Norsk Ordbank in Norwegian Bokmål 2005](https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-5&lang=en), the 2019-02-20 update. It is released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
@@ -20,4 +22,4 @@ The software in this repo is licensed under WTFPL and can be read in `LICENSE`.
 
 * The regex to remove proper nouns also removes several valid words as well.
 * One might evaluate also removing some additional special characters, for example `1`, `2`, `3`, `4` and `/`.
-* Å is sorted before Ø.
+* Must update source when replacing tar.gz because of date.

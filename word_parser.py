@@ -68,11 +68,25 @@ def remove_word_starts_and_endings(lines):
 
 def remove_words_with_special_characters(lines):
     # might evaluate removing 1234/ as well
-    return filter_out_pattern(lines, r'^.*[\'\$%&\.\(\) ].*$')
+    return filter_out_pattern(lines, r'^.*[\'\$%&°\.\(\) ].*$')
 
 
 def remove_single_letter_words(lines):
     return filter_out_pattern(lines, r'^.{1}$')
+
+
+def sort_locale(lines):
+    try:
+        import PyICU
+    except ImportError:
+        PyICU = None
+
+    if PyICU:
+        collator = PyICU.Collator.createInstance(PyICU.Locale('nb_NO'))
+        return sorted(lines, key=collator.getSortKey)
+    else:
+        print("To get locale specific sorting (æøå) the PyICO module is required. Doing basic sort.")
+        return sorted(lines)
 
 
 def parse_into_wordlist(filename):
@@ -91,7 +105,7 @@ def parse_into_wordlist(filename):
     lines = remove_words_with_special_characters(lines)
     lines = remove_words_with_special_characters(lines)
     lines = remove_single_letter_words(lines)
-    lines = sorted(lines)
+    lines = sort_locale(lines)
 
     # persist result
     set_file_contents('wordlist_{}.txt'.format(filename), lines)
