@@ -3,8 +3,19 @@ import tarfile
 import os
 from argparse import ArgumentParser, ArgumentTypeError
 
-BOKMAL = '20190123_norsk_ordbank_nob_2005'
-NYNORSK = '20190123_norsk_ordbank_nno_2012'
+BOKMAL_PATTERN = r'^\d{8}_norsk_ordbank_nob_2005\.tar\.gz$'
+NYNORSK_PATTERN = r'^\d{8}_norsk_ordbank_nno_2012\.tar\.gz$'
+
+
+def find_tar_filename(filename_pattern):
+    os.listdir('.')
+    results = [f for f in os.listdir('.') if re.search(filename_pattern, f)]
+
+    if len(results) == 1:
+        extension_index = results[0].find(".")
+        return results[0][:extension_index]
+
+    raise ValueError('Found none or multiple tarballs for pattern {}.'.format(filename_pattern))
 
 
 def extract_tar(filename):
@@ -116,8 +127,9 @@ def in_interval(item, minimum, maximum):
     return True
 
 
-def parse_into_wordlist(filename, minmax=(None, None), pattern=None):
+def parse_into_wordlist(filename_pattern, minmax=(None, None), pattern=None):
     # prepare content
+    filename = find_tar_filename(filename_pattern)
     extract_tar('{}.tar.gz'.format(filename))
     lemma = find_lemma_file(filename)
     content = get_file_contents('{}/{}'.format(filename, lemma))
@@ -168,5 +180,5 @@ def argparser():
 
 if __name__ == "__main__":
     args = argparser()
-    parse_into_wordlist(BOKMAL, minmax=args.length, pattern=args.pattern)
-    parse_into_wordlist(NYNORSK, minmax=args.length, pattern=args.pattern)
+    parse_into_wordlist(BOKMAL_PATTERN, minmax=args.length, pattern=args.pattern)
+    parse_into_wordlist(NYNORSK_PATTERN, minmax=args.length, pattern=args.pattern)

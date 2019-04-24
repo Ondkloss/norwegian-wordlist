@@ -31,4 +31,3 @@ The software in this repo is licensed under WTFPL and can be read in `LICENSE`.
 
 * The regex to remove proper nouns also removes several valid words as well.
 * One might evaluate also removing some additional special characters, for example `1`, `2`, `3`, `4` and `/`.
-* Must update source when replacing tarball because of date.
