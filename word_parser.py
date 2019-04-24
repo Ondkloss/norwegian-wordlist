@@ -1,6 +1,7 @@
 import re
 import tarfile
 import os
+from argparse import ArgumentParser, ArgumentTypeError
 
 BOKMAL = '20190123_norsk_ordbank_nob_2005'
 NYNORSK = '20190123_norsk_ordbank_nno_2012'
@@ -35,15 +36,26 @@ def strip_column_headers(lines):
     return lines[1:]
 
 
-def filter_out_pattern(lines, pattern):
+def filter_pattern(lines, pattern, include):
     result = []
 
     for line in lines:
         match = re.match(pattern, line)
-        if not match:
+        if (include and match) or (not include and not match):
             result.append(line)
 
     return result
+
+
+def filter_out_pattern(lines, pattern):
+    return filter_pattern(lines, pattern, False)
+
+
+def matching_pattern(lines, pattern):
+    if pattern is not None:
+        return filter_pattern(lines, pattern, True)
+
+    return lines
 
 
 def extract_word(lines):
@@ -89,7 +101,22 @@ def sort_locale(lines):
         return sorted(lines)
 
 
-def parse_into_wordlist(filename):
+def filter_length(lines, minimum, maximum):
+    return [line for line in lines if in_interval(line, minimum, maximum)]
+
+
+def in_interval(item, minimum, maximum):
+    item_length = len(item)
+
+    if minimum is not None and item_length < minimum:
+        return False
+    elif maximum is not None and item_length > maximum:
+        return False
+
+    return True
+
+
+def parse_into_wordlist(filename, minmax=(None, None), pattern=None):
     # prepare content
     extract_tar('{}.tar.gz'.format(filename))
     lemma = find_lemma_file(filename)
@@ -107,9 +134,39 @@ def parse_into_wordlist(filename):
     lines = remove_single_letter_words(lines)
     lines = sort_locale(lines)
 
+    # input filters
+    lines = filter_length(lines, *minmax)
+    lines = matching_pattern(lines, pattern)
+
     # persist result
     set_file_contents('wordlist_{}.txt'.format(filename), lines)
 
 
-parse_into_wordlist(BOKMAL)
-parse_into_wordlist(NYNORSK)
+# https://stackoverflow.com/a/6512463
+def limited_range(value):
+    groups = value.split('-')
+
+    if len(groups) < 1 or len(groups) > 2:
+        raise ArgumentTypeError("Invalid range format. Expected format similar to '2', '2-4' or '2-*'")
+
+    start = None if groups[0] == '*' else int(groups[0])
+    end = (None if groups[1] == '*' else int(groups[1])) if len(groups) > 1 else start
+
+    if start is not None and end is not None and start > end:
+        raise ArgumentTypeError("Invalid range. Minimum cannot exceed maximum")
+
+    return (start, end)
+
+
+def argparser():
+    parser = ArgumentParser(description='Create wordlist text file from norsk_ordbank tarballs')
+    parser.add_argument('-l', '--length', type=limited_range, help='A length or length range (e.g. "2", "2-4", "2-*" or "*-4")', default=(None, None))
+    parser.add_argument('-p', '--pattern', type=str, help='A regex pattern to match (e.g. "a.+sin")', default=None)
+
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = argparser()
+    parse_into_wordlist(BOKMAL, minmax=args.length, pattern=args.pattern)
+    parse_into_wordlist(NYNORSK, minmax=args.length, pattern=args.pattern)
