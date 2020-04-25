@@ -18,9 +18,9 @@ def find_tar_filename(filename_pattern):
     raise ValueError('Found none or multiple tarballs for pattern {}.'.format(filename_pattern))
 
 
-def extract_tar(filename):
+def extract_tar(filename, destination):
     tar = tarfile.open(filename, "r:gz")
-    tar.extractall()
+    tar.extractall(path=destination)
     tar.close()
 
 
@@ -108,7 +108,7 @@ def sort_locale(lines):
         collator = PyICU.Collator.createInstance(PyICU.Locale('nb_NO'))
         return sorted(lines, key=collator.getSortKey)
     else:
-        print("To get locale specific sorting (æøå) the PyICO module is required. Doing basic sort.")
+        print("To get locale specific sorting (æøå) the PyICU module is required. Doing basic sort.")
         return sorted(lines)
 
 
@@ -130,7 +130,7 @@ def in_interval(item, minimum, maximum):
 def parse_into_wordlist(filename_pattern, minmax=(None, None), pattern=None):
     # prepare content
     filename = find_tar_filename(filename_pattern)
-    extract_tar('{}.tar.gz'.format(filename))
+    extract_tar('{}.tar.gz'.format(filename), filename)
     lemma = find_lemma_file(filename)
     content = get_file_contents('{}/{}'.format(filename, lemma))
     lines = content.split('\n')
