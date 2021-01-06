@@ -4,7 +4,7 @@ Simple project to create a list of Norwegian words. To run:
 
     python word_parser.py
 
-Example output (and working wordlist) is `wordlist_20191010_norsk_ordbank_nob_2005.txt` and `wordlist_20191010_norsk_ordbank_nno_2012.txt`.
+Example output (and working wordlist) is [`wordlist_20191010_norsk_ordbank_nob_2005.txt`](https://raw.githubusercontent.com/Ondkloss/norwegian-wordlist/master/wordlist_20191010_norsk_ordbank_nob_2005.txt) and [`wordlist_20191010_norsk_ordbank_nno_2012.txt`](https://raw.githubusercontent.com/Ondkloss/norwegian-wordlist/master/wordlist_20191010_norsk_ordbank_nno_2012.txt).
 
 You can also provide `--length` (`-l`) or `--pattern` (`-p`) to filter the wordlist. Some examples:
 
